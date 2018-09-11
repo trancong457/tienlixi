@@ -29,5 +29,6 @@
 <!-- WP FOOTER START -->
 
 <!-- WP FOOTER END -->
+<?php wp_footer();?>
 </body>
 </html>

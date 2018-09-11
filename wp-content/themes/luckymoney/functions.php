@@ -52,9 +52,20 @@ add_action('widgets_init', 'theme_widgets_init');
 function theme_widgets_init(){
 
     register_sidebar(array(
-        'name'          => __( 'Top content area', 'lucky_money' ),
-        'id'            => 'top-content-widget-area',
-        'description'   => __( 'Hien thi noi dung trong vung Top Content', 'lucky_money' ),
+        'name'          => __( 'Primary widget area', 'lucky_money' ),
+        'id'            => 'primary-widget-area',
+        'description'   => __( 'Thêm Widget vào phía bên tay phải của Website', 'zendvn' ),
+        'class'         => '',
+        'before_widget' => '<div id="%1$s" class="sidebar-widget %2$s clr">',
+        'after_widget'  => '</div>',
+        'before_title'  => '<span class="widget-title">',
+        'after_title'   => '</span>'
+    ));
+
+    register_sidebar(array(
+        'name'          => __( 'Top widget area', 'lucky_money' ),
+        'id'            => 'top-widget-area',
+        'description'   => __( 'Hien thi trong vung Top', 'lucky_money' ),
         'class'         => '',
         'before_widget' => '<div id="%1$s" class="%2$s clr">',
         'after_widget'  => '</div>',
@@ -65,3 +76,123 @@ function theme_widgets_init(){
 
 }
 
+/*============================================================================
+ * 2. NẠP NHỮNG TẬP TIN JS VÀO THEME
+============================================================================*/
+add_action('wp_enqueue_scripts', 'theme_register_js');
+
+function theme_register_js(){
+    $jsUrl = get_template_directory_uri() . '/js';
+
+    wp_enqueue_script('script',$jsUrl . '/main.js',array('jquery'),'1.0',true);
+}
+
+/*============================================================================
+ * 1. NẠP NHỮNG TẬP TIN CSS VÀO THEME
+============================================================================*/
+add_action('wp_enqueue_scripts', 'theme_register_style');
+
+function theme_register_style(){
+    global $wp_styles;
+    $cssUrl = get_template_directory_uri() . '/css';
+    //echo $cssUrl;
+    wp_register_style('theme_style_main', $cssUrl . '/main.css',array(),'1.0');
+    wp_enqueue_style('theme_style_main');
+
+    wp_register_style('theme_style_media', $cssUrl . '/media.css',array(),'1.0');
+    wp_enqueue_style('theme_style_media');
+
+    wp_register_style('elegant_icons', $cssUrl . '/elegant-icons.min.css',array(),'1.0');
+    wp_enqueue_style('elegant_icons');
+}
+
+
+/*============================================================================
+ * 1. CÀI ĐẶT Woocommerce VÀO THEME
+============================================================================*/
+
+
+add_theme_support( 'post-thumbnails' );
+
+add_action( 'after_setup_theme', 'woocommerce_support' );
+function woocommerce_support() {
+    add_theme_support( 'woocommerce' );
+}
+
+
+/*============================================================================
+ * 1. OVERRIDE Woocommerce
+============================================================================*/
+
+function action_woocommerce_before_shop_loop_item(  ) {
+    echo '<div class="info-text">';
+};
+add_action( 'woocommerce_before_shop_loop_item', 'action_woocommerce_before_shop_loop_item', 10, 0 );
+
+function action_woocommerce_after_shop_loop_item(  ) {
+    echo '</div>';
+};
+add_action( 'woocommerce_after_shop_loop_item', 'action_woocommerce_after_shop_loop_item', 10, 0 );
+
+// remove remove_add_to_cart_buttons on category
+add_action( 'woocommerce_after_shop_loop_item', 'remove_add_to_cart_buttons', 1 );
+
+function remove_add_to_cart_buttons() {
+    if( is_product_category() || is_shop()) {
+        remove_action( 'woocommerce_after_shop_loop_item', 'woocommerce_template_loop_add_to_cart' );
+    }
+}
+
+//change title product woocommerce on list
+
+//remove link wrap for loop item
+remove_action( 'woocommerce_before_shop_loop_item', 'woocommerce_template_loop_product_link_open', 10 );
+
+// add link to title
+add_action( 'woocommerce_before_shop_loop_item_title', 'action_woocommerce_before_shop_loop_item_title', 10, 0 );
+function action_woocommerce_before_shop_loop_item_title(  ) {
+    echo '<a href="'. esc_url( get_the_permalink() ) .'">';
+};
+
+//add link for loop item image
+add_action( 'woocommerce_after_shop_loop_item_title', 'action_woocommerce_after_shop_loop_item_title', 10, 0 );
+function action_woocommerce_after_shop_loop_item_title(  ) {
+    echo '</a>';
+};
+
+if ( ! function_exists( 'woocommerce_template_loop_product_thumbnail' ) ) {
+    function woocommerce_template_loop_product_thumbnail() {
+        echo woocommerce_get_product_thumbnail();
+    }
+}
+/**
+ * WooCommerce Product Thumbnail
+ **/
+if ( ! function_exists( 'woocommerce_get_product_thumbnail' ) ) {
+
+    function woocommerce_get_product_thumbnail( $size = 'shop_catalog', $placeholder_width = 0, $placeholder_height = 0  ) {
+        global $post, $woocommerce;
+
+        $output = '<a class="imgbox" href="'. esc_url( get_the_permalink() ) .'">';
+        if ( has_post_thumbnail() ) {
+
+            $output .= get_the_post_thumbnail( $post->ID, $size );
+
+        } else {
+
+            $output .= '<img src="'. woocommerce_placeholder_img_src() .'" alt="Placeholder" width="' . $placeholder_width . '" height="' . $placeholder_height . '" />';
+
+        }
+
+        $output .= '<span class="shopnow-btn">Buy Now</span></a>';
+
+        return $output;
+    }
+}
+
+// title category
+
+// define the woocommerce_show_page_title callback
+add_filter( 'woocommerce_show_page_title', function(){
+    return false;
+});

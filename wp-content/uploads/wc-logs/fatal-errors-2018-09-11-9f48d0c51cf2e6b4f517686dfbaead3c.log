@@ -1,0 +1,22 @@
+2018-09-11T14:05:55+00:00 CRITICAL Uncaught Error: Call to undefined method WooCommerce::get_image_size() in D:\works\htdocs\tienlixi\wp-content\themes\luckymoney\functions.php:174
+Stack trace:
+#0 D:\works\htdocs\tienlixi\wp-content\themes\luckymoney\functions.php(163): woocommerce_get_product_thumbnail()
+#1 D:\works\htdocs\tienlixi\wp-includes\class-wp-hook.php(286): woocommerce_template_loop_product_thumbnail('')
+#2 D:\works\htdocs\tienlixi\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 D:\works\htdocs\tienlixi\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#4 D:\works\htdocs\tienlixi\wp-content\themes\luckymoney\woocommerce\content-product.php(43): do_action('woocommerce_bef...')
+#5 D:\works\htdocs\tienlixi\wp-includes\template.php(690): require('D:\\works\\htdocs...')
+#6 D:\works\htdocs\tienlixi\wp-content\plugins\woocommerce\includes\wc-core-functions.php(179): load_template('D:\\works\\htdocs...', false)
+#7 D:\works\htdocs\tienlixi\wp-content\plugins\woocommerce\includes\wc-template-functions.php(901):
+
+2018-09-11T14:12:24+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in D:\works\htdocs\tienlixi\wp-content\themes\luckymoney\functions.php:177
+Stack trace:
+#0 D:\works\htdocs\tienlixi\wp-content\themes\luckymoney\functions.php(165): woocommerce_get_product_thumbnail()
+#1 D:\works\htdocs\tienlixi\wp-includes\class-wp-hook.php(286): woocommerce_template_loop_product_thumbnail('')
+#2 D:\works\htdocs\tienlixi\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 D:\works\htdocs\tienlixi\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#4 D:\works\htdocs\tienlixi\wp-content\themes\luckymoney\woocommerce\content-product.php(43): do_action('woocommerce_bef...')
+#5 D:\works\htdocs\tienlixi\wp-includes\template.php(690): require('D:\\works\\htdocs...')
+#6 D:\works\htdocs\tienlixi\wp-content\plugins\woocommerce\includes\wc-core-functions.php(179): load_template('D:\\works\\htdocs...', false)
+#7 D:\works\htdocs\tienlixi\wp-content\plugins\woocommerce\includes\wc-template-functions.php(901): wc_get_temp
+

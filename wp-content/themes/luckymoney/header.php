@@ -3,13 +3,10 @@
 <html style="margin-top: 0px !important;">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=<?php bloginfo('charset')?>">
-
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <link rel="shortcut icon" type="image/x-icon" href="<?php echo THEME_IMG_URL ?>/favicon.ico">
-    <link href="<?php echo THEME_CSS_URL ?>/main.css" rel="stylesheet">
-    <link href="<?php echo THEME_CSS_URL ?>/media.css" rel="stylesheet">
+
     <!-- WP HEAD START -->
     <title>
         <?php
@@ -24,7 +21,7 @@
     <!-- WP HEAD END -->
 </head>
 
-<body class="">
+<body class="woocommerce">
 
 <!--MMenu-->
 <div class="mobile-menu-block clearfix">
