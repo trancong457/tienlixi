@@ -22,12 +22,13 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 global $post;
 
-$heading = esc_html( apply_filters( 'woocommerce_product_description_heading', __( 'Description', 'woocommerce' ) ) );
+$heading = esc_html( apply_filters( 'woocommerce_product_description_heading', __( 'Product Description', 'woocommerce' ) ) );
 
 ?>
+<div class="product-discription clearfix">
+    <?php if ( $heading ) : ?>
+      <h4 class="inner-title"><?php echo $heading; ?></h4>
+    <?php endif; ?>
 
-<?php if ( $heading ) : ?>
-  <h2><?php echo $heading; ?></h2>
-<?php endif; ?>
-
-<?php the_content(); ?>
+    <?php the_content(); ?>
+</div>
