@@ -67,10 +67,10 @@ function theme_widgets_init(){
         'id'            => 'top-widget-area',
         'description'   => __( 'Hien thi trong vung Top', 'lucky_money' ),
         'class'         => '',
-        'before_widget' => '<div id="%1$s" class="%2$s clr">',
-        'after_widget'  => '</div>',
-        'before_title'  => '',
-        'after_title'   => ''
+        'before_widget' => '<section class="%1$s"><div class="container"><div id="%1$s" class="%2$s clr">',
+        'after_widget'  => '</div></div></section>',
+        'before_title'  => '<h2 class="widget-title intro-text center">',
+        'after_title'   => '</h2>'
     ));
 
 
@@ -85,6 +85,9 @@ function theme_register_js(){
     $jsUrl = get_template_directory_uri() . '/js';
 
     wp_enqueue_script('script',$jsUrl . '/main.js',array('jquery'),'1.0',true);
+    //wp_enqueue_script('script_1','/slider.js',array('jquery'),'1.0',true);
+    wp_enqueue_script('script_1','https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.js',array('jquery'),'1.0',true);
+    //https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.js
 }
 
 /*============================================================================
@@ -104,6 +107,13 @@ function theme_register_style(){
 
     wp_register_style('elegant_icons', $cssUrl . '/elegant-icons.min.css',array(),'1.0');
     wp_enqueue_style('elegant_icons');
+
+    //skick slider
+    wp_register_style('slick', $cssUrl . 'https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css',array(),'1.0');
+    wp_enqueue_style('slick');
+
+    wp_register_style('slick_theme', $cssUrl . 'https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css',array(),'1.0');
+    wp_enqueue_style('slick_theme');
 
 }
 
@@ -164,14 +174,16 @@ function action_woocommerce_after_shop_loop_item_title(  ) {
     echo '</a>';
 };
 
+/**
+ * WooCommerce Product Thumbnail
+ **/
+
 if ( ! function_exists( 'woocommerce_template_loop_product_thumbnail' ) ) {
     function woocommerce_template_loop_product_thumbnail() {
         echo woocommerce_get_product_thumbnail();
     }
 }
-/**
- * WooCommerce Product Thumbnail
- **/
+
 if ( ! function_exists( 'woocommerce_get_product_thumbnail' ) ) {
 
     function woocommerce_get_product_thumbnail( $size = 'shop_catalog', $placeholder_width = 0, $placeholder_height = 0  ) {
@@ -242,6 +254,7 @@ add_action( 'woocommerce_after_single_product_summary', 'woocommerce_template_pr
 //remove default css woocommerce
 add_filter( 'woocommerce_enqueue_styles', '__return_empty_array' );
 
+
 //change_number_related_products
 add_filter( 'woocommerce_output_related_products_args', 'bbloomer_change_number_related_products', 9999 );
 
@@ -249,4 +262,21 @@ function bbloomer_change_number_related_products( $args ) {
     $args['posts_per_page'] = 6; // # of related products
     $args['columns'] = 3; // # of columns per row
     return $args;
+}
+
+// overdide category shortcode
+add_action( 'woocommerce_shortcode_before_products_loop', 'roka_before_products_shortcode_loop', 1, 10 );
+add_action( 'woocommerce_shortcode_after_products_loop', 'roka_after_products_shortcode_loop', 0, 10 );
+
+function roka_before_products_shortcode_loop( $atts ) {
+    echo '<div class="container">';
+}
+
+function roka_after_products_shortcode_loop( $atts ) {
+    echo '</div>';
+}
+
+add_action( 'wp', 'western_custom_buy_buttons' );
+function western_custom_buy_buttons(){
+    remove_action( 'woocommerce_after_shop_loop_item', 'woocommerce_template_loop_add_to_cart' );
 }

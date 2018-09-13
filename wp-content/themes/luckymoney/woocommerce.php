@@ -8,7 +8,9 @@ if( is_product_category() || is_shop()) {
 <?php get_header(); ?>
 <div class="<?php echo $class_category ?>">
     <div class="container">
-    <?php woocommerce_content(); ?>
+        <div class="padding-40">
+            <?php woocommerce_content(); ?>
+        </div>
     </div>
 </div>
 <?php get_footer(); ?>
