@@ -66,18 +66,9 @@
                 <a href="<?php echo site_url(); ?>" title="New Year Money"><img src="<?php echo THEME_IMG_URL ?>/logo.jpg" alt="" style="width: 123px;"></a>
             </div>
             <nav class="menu-product_cat_menu-container">
-                <!--
-                <ul id="menu-product_cat_menu-1" class="clearfix">
-                    <li class=""><a href="#">Trang Chủ</a></li>
-                    <li class=""><a href="#">Giới thiệu</a></li>
-                    <li class=""><a href="#">Tiền lì xì tết 2019</a></li>
-                    <li class=""><a href="#">2 USD con Heo</a></li>
-                    <li class=""><a href="#">Tin Tức</a></li>
-                    <li class=""><a href="#">Liên Hệ</a></li>
-                </ul>
-                -->
                 <?php require_once THEME_INC_DIR . '/main-menu.php';?>
             </nav>
+
         </div>
     </div>
 

@@ -67,7 +67,7 @@ function theme_widgets_init(){
         'id'            => 'top-widget-area',
         'description'   => __( 'Hien thi trong vung Top', 'lucky_money' ),
         'class'         => '',
-        'before_widget' => '<section class="%1$s"><div class="container"><div id="%1$s" class="%2$s clr">',
+        'before_widget' => '<section class="%1$s"><div class="container"><div id="%1$s" class="%2$s clearfix">',
         'after_widget'  => '</div></div></section>',
         'before_title'  => '<h2 class="widget-title intro-text center">',
         'after_title'   => '</h2>'
@@ -165,7 +165,7 @@ remove_action( 'woocommerce_before_shop_loop_item', 'woocommerce_template_loop_p
 // add link to title
 add_action( 'woocommerce_before_shop_loop_item_title', 'action_woocommerce_before_shop_loop_item_title', 10, 0 );
 function action_woocommerce_before_shop_loop_item_title(  ) {
-    echo '<a href="'. esc_url( get_the_permalink() ) .'">';
+    echo '<a class="title_product" href="'. esc_url( get_the_permalink() ) .'">';
 };
 
 //add link for loop item image
@@ -264,19 +264,59 @@ function bbloomer_change_number_related_products( $args ) {
     return $args;
 }
 
-// overdide category shortcode
-add_action( 'woocommerce_shortcode_before_products_loop', 'roka_before_products_shortcode_loop', 1, 10 );
-add_action( 'woocommerce_shortcode_after_products_loop', 'roka_after_products_shortcode_loop', 0, 10 );
-
-function roka_before_products_shortcode_loop( $atts ) {
-    echo '<div class="container">';
-}
-
-function roka_after_products_shortcode_loop( $atts ) {
-    echo '</div>';
-}
 
 add_action( 'wp', 'western_custom_buy_buttons' );
 function western_custom_buy_buttons(){
     remove_action( 'woocommerce_after_shop_loop_item', 'woocommerce_template_loop_add_to_cart' );
 }
+
+// icon cart header
+/**
+ * Ensure cart contents update when products are added to the cart via AJAX
+ */
+
+function my_header_add_to_cart_fragment( $fragments ) {
+
+    ob_start();
+    $count = WC()->cart->cart_contents_count;
+    ?>
+
+        <?php if ( in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', get_option( 'active_plugins' ) ) ) ) {
+
+            $count = WC()->cart->cart_contents_count;
+            ?>
+            <a class="cart-contents icon-round" href="<?php echo WC()->cart->get_cart_url(); ?>" title="<?php _e( 'View your shopping cart' ); ?>">
+                <i class="ei ei-cart"></i>
+                <?php
+                if ( $count > 0 ) {
+                    ?>
+                    <span class="cart-contents-count cart-item"><?php echo esc_html( $count ); ?></span>
+                    <?php
+                }
+                ?>
+            </a>
+
+        <?php } ?>
+
+
+    <?php
+
+    $fragments['a.cart-contents'] = ob_get_clean();
+
+    return $fragments;
+}
+add_filter( 'woocommerce_add_to_cart_fragments', 'my_header_add_to_cart_fragment' );
+
+/* for post_thumbnail */
+
+/*
+function wpdocs_post_image_html( $html, $post_id, $post_image_id ) {
+    $html = '<a href="' . get_permalink( $post_id ) . '" alt="' . esc_attr( get_the_title( $post_id ) ) . '">' . $html . '</a>';
+    return $html;
+}
+if(is_category()){
+    add_filter( 'post_thumbnail_html', 'wpdocs_post_image_html', 10, 3 );
+}
+*/
+
+

@@ -20,4 +20,14 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 ?>
-<div class="slider1 products center section-inner clearfix columns-<?php echo esc_attr( wc_get_loop_prop( 'columns' ) ); ?>" role="toolbar">
+
+<?php
+$class = 'slider1';
+if(is_product_category()){
+    $class = '';
+}
+
+
+?>
+
+<div class="<?php echo $class ?> products center section-inner clearfix columns-<?php echo esc_attr( wc_get_loop_prop( 'columns' ) ); ?>" role="toolbar">
