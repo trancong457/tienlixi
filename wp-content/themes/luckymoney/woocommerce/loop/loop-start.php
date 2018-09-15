@@ -23,7 +23,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 <?php
 $class = 'slider1';
-if(is_product_category()){
+if(is_product_category() or is_shop()){
     $class = '';
 }
 

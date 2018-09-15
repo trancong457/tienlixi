@@ -26,31 +26,8 @@
 	wp_nav_menu($args);
 ?>
 
-            <li class="cart-icon pull-left">
-                <?php if ( in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', get_option( 'active_plugins' ) ) ) ) {
+        <?php include THEME_INC_DIR . '/cart_top.php';?>
 
-                    $count = WC()->cart->cart_contents_count;
-                    ?>
-                    <a class="cart-contents icon-round" href="<?php echo WC()->cart->get_cart_url(); ?>" title="<?php _e( 'View your shopping cart' ); ?>">
-                        <i class="ei ei-cart"></i>
-                        <?php
-                        if ( $count > 0 ) {
-                            ?>
-                            <span class="cart-contents-count cart-item"><?php echo esc_html( $count ); ?></span>
-                            <?php
-                        }
-                        ?>
-                    </a>
-
-                <?php } ?>
-            </li>
-
-            <!--
-            <a href="#mobile-nav" class="navigation-toggle"> <span
-				class="fa fa-bars navigation-toggle-icon"></span> <span
-				class="navigation-toggle-text">Browse Categories</span>
-			</a>
-			-->
 		</nav>
 
 	</div>
@@ -58,36 +35,3 @@
 </div>
 <?php endif;?>
 
-<!-- <div id="site-navigation-wrap" class="clr">
-	<div id="site-navigation-inner" class="clr container">
-		<nav id="site-navigation" class="navigation main-navigation clr"
-			role="navigation">
-			<div class="menu-categories-container">
-				<ul id="menu-categories" class="main-nav dropdown-menu sf-menu">
-					<li class="menu-item-object-category cat-28"><a href="#">Sports</a>
-					</li>
-					<li class="menu-item-object-category cat-5"><a href="#">Photography</a>
-					</li>
-					<li class="menu-item-object-category cat-6"><a href="#">Travel</a>
-					</li>
-					<li class="menu-item-object-category cat-3"><a href="#">Shopping</a>
-					</li>
-					<li class="menu-item-object-category cat-4"><a href="#">Nature</a>
-					</li>
-					<li class="menu-item-object-category cat-27"><a href="#">News</a></li>
-					<li class="menu-item-object-category cat-2"><a href="#">Videos</a>
-					</li>
-					<li class="menu-item-object-category cat-26"><a href="#">Health</a>
-					</li>
-				</ul>
-			</div>
-			<a href="#mobile-nav" class="navigation-toggle"> <span
-				class="fa fa-bars navigation-toggle-icon"></span> <span
-				class="navigation-toggle-text">Browse Categories</span>
-			</a>
-		</nav>
-
-	</div>
-
-</div>
- -->

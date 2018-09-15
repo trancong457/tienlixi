@@ -2,271 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="10fd8ebc-8910-4d37-abc7-40a8a4251c23" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/luckymoney/inc/cart_top.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/luckymoney/inc/logo.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tienlixi.sql" beforeDir="false" afterPath="$PROJECT_DIR$/tienlixi.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/acf.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/assets/css/acf-dark.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/assets/css/acf-field-group.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/assets/css/acf-global.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/assets/css/acf-input.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/assets/font/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/assets/font/README.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/assets/font/acf.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/assets/font/acf.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/assets/font/acf.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/assets/font/acf.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/assets/font/acf.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/assets/font/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/assets/images/acf-logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/assets/images/spinner.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/assets/images/spinner@2x.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/assets/inc/datepicker/images/ui-bg_highlight-soft_0_ffffff_1x100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/assets/inc/datepicker/images/ui-icons_444444_256x240.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/assets/inc/datepicker/images/ui-icons_DDDDDD_256x240.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/assets/inc/datepicker/images/ui-icons_ffffff_256x240.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/assets/inc/datepicker/jquery-ui.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/assets/inc/datepicker/jquery-ui.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/assets/inc/select2/3/select2-spinner.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/assets/inc/select2/3/select2.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/assets/inc/select2/3/select2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/assets/inc/select2/3/select2.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/assets/inc/select2/3/select2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/assets/inc/select2/3/select2x2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/assets/inc/select2/4/select2.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/assets/inc/select2/4/select2.full.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/assets/inc/select2/4/select2.full.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/assets/inc/select2/4/select2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/assets/inc/select2/4/select2.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/assets/inc/select2/4/select2.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/assets/inc/timepicker/jquery-ui-timepicker-addon.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/assets/inc/timepicker/jquery-ui-timepicker-addon.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/assets/inc/timepicker/jquery-ui-timepicker-addon.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/assets/inc/timepicker/jquery-ui-timepicker-addon.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/assets/js/acf-field-group.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/assets/js/acf-field-group.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/assets/js/acf-input.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/assets/js/acf-input.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/includes/admin/admin-field-group.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/includes/admin/admin-field-groups.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/includes/admin/admin-tools.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/includes/admin/admin-upgrade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/includes/admin/admin.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/includes/admin/settings-addons.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/includes/admin/settings-info.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/includes/admin/tools/class-acf-admin-tool-export.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/includes/admin/tools/class-acf-admin-tool-import.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/includes/admin/tools/class-acf-admin-tool.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/includes/admin/views/field-group-field-conditional-logic.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/includes/admin/views/field-group-field.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/includes/admin/views/field-group-fields.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/includes/admin/views/field-group-locations.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/includes/admin/views/field-group-options.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/includes/admin/views/html-admin-page-upgrade-network.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/includes/admin/views/html-admin-page-upgrade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/includes/admin/views/html-admin-tools.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/includes/admin/views/html-location-group.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/includes/admin/views/html-location-rule.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/includes/admin/views/html-notice-upgrade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/includes/admin/views/settings-addons.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/includes/admin/views/settings-info.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/includes/ajax/class-acf-ajax-check-screen.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/includes/ajax/class-acf-ajax-query-terms.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/includes/ajax/class-acf-ajax-query.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/includes/ajax/class-acf-ajax-upgrade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/includes/ajax/class-acf-ajax-user-setting.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/includes/ajax/class-acf-ajax.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/includes/api/api-field-group.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/includes/api/api-field.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/includes/api/api-helpers.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/includes/api/api-input.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/includes/api/api-template.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/includes/api/api-term.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/includes/api/api-value.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/includes/assets.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/includes/cache.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/includes/compatibility.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/includes/deprecated.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/includes/fields.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/includes/fields/class-acf-field-accordion.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/includes/fields/class-acf-field-button-group.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/includes/fields/class-acf-field-checkbox.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/includes/fields/class-acf-field-color_picker.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/includes/fields/class-acf-field-date_picker.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/includes/fields/class-acf-field-date_time_picker.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/includes/fields/class-acf-field-email.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/includes/fields/class-acf-field-file.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/includes/fields/class-acf-field-google-map.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/includes/fields/class-acf-field-group.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/includes/fields/class-acf-field-image.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/includes/fields/class-acf-field-link.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/includes/fields/class-acf-field-message.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/includes/fields/class-acf-field-number.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/includes/fields/class-acf-field-oembed.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/includes/fields/class-acf-field-output.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/includes/fields/class-acf-field-page_link.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/includes/fields/class-acf-field-password.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/includes/fields/class-acf-field-post_object.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/includes/fields/class-acf-field-radio.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/includes/fields/class-acf-field-range.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/includes/fields/class-acf-field-relationship.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/includes/fields/class-acf-field-select.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/includes/fields/class-acf-field-separator.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/includes/fields/class-acf-field-tab.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/includes/fields/class-acf-field-taxonomy.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/includes/fields/class-acf-field-text.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/includes/fields/class-acf-field-textarea.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/includes/fields/class-acf-field-time_picker.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/includes/fields/class-acf-field-true_false.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/includes/fields/class-acf-field-url.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/includes/fields/class-acf-field-user.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/includes/fields/class-acf-field-wysiwyg.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/includes/fields/class-acf-field.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/includes/form.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/includes/forms/form-attachment.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/includes/forms/form-comment.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/includes/forms/form-customizer.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/includes/forms/form-front.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/includes/forms/form-gutenberg.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/includes/forms/form-nav-menu.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/includes/forms/form-post.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/includes/forms/form-taxonomy.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/includes/forms/form-user.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/includes/forms/form-widget.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/includes/json.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/includes/local.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/includes/locations.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/includes/locations/class-acf-location-attachment.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/includes/locations/class-acf-location-comment.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/includes/locations/class-acf-location-current-user-role.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/includes/locations/class-acf-location-current-user.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/includes/locations/class-acf-location-nav-menu-item.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/includes/locations/class-acf-location-nav-menu.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/includes/locations/class-acf-location-page-parent.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/includes/locations/class-acf-location-page-template.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/includes/locations/class-acf-location-page-type.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/includes/locations/class-acf-location-page.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/includes/locations/class-acf-location-post-category.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/includes/locations/class-acf-location-post-format.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/includes/locations/class-acf-location-post-status.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/includes/locations/class-acf-location-post-taxonomy.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/includes/locations/class-acf-location-post-template.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/includes/locations/class-acf-location-post-type.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/includes/locations/class-acf-location-post.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/includes/locations/class-acf-location-taxonomy.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/includes/locations/class-acf-location-user-form.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/includes/locations/class-acf-location-user-role.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/includes/locations/class-acf-location-widget.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/includes/locations/class-acf-location.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/includes/loop.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/includes/media.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/includes/revisions.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/includes/third-party.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/includes/updates.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/includes/upgrades.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/includes/validation.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/includes/walkers/class-acf-walker-nav-menu-edit.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/includes/walkers/class-acf-walker-taxonomy-field.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/includes/wpml.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/lang/acf-ar.mo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/lang/acf-ar.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/lang/acf-bg_BG.mo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/lang/acf-bg_BG.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/lang/acf-cs_CZ.mo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/lang/acf-cs_CZ.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/lang/acf-de_CH.mo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/lang/acf-de_CH.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/lang/acf-de_DE.mo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/lang/acf-de_DE.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/lang/acf-de_DE_formal.mo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/lang/acf-de_DE_formal.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/lang/acf-es_ES.mo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/lang/acf-es_ES.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/lang/acf-fa_IR.mo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/lang/acf-fa_IR.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/lang/acf-fi.mo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/lang/acf-fi.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/lang/acf-fr_FR.mo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/lang/acf-fr_FR.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/lang/acf-he_IL.mo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/lang/acf-he_IL.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/lang/acf-hr_HR.mo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/lang/acf-hr_HR.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/lang/acf-hu_HU.mo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/lang/acf-hu_HU.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/lang/acf-id_ID.mo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/lang/acf-id_ID.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/lang/acf-it_IT.mo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/lang/acf-it_IT.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/lang/acf-ja.mo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/lang/acf-ja.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/lang/acf-nb_NO.mo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/lang/acf-nb_NO.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/lang/acf-nl_NL.mo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/lang/acf-nl_NL.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/lang/acf-pl_PL.mo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/lang/acf-pl_PL.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/lang/acf-pt_BR.mo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/lang/acf-pt_BR.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/lang/acf-pt_PT.mo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/lang/acf-pt_PT.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/lang/acf-ro_RO.mo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/lang/acf-ro_RO.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/lang/acf-ru_RU.mo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/lang/acf-ru_RU.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/lang/acf-sk_SK.mo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/lang/acf-sk_SK.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/lang/acf-sv_SE.mo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/lang/acf-sv_SE.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/lang/acf-tr_TR.mo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/lang/acf-tr_TR.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/lang/acf-uk.mo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/lang/acf-uk.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/lang/acf-zh_CN.mo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/lang/acf-zh_CN.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/lang/acf.pot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/pro/acf-pro.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/pro/admin/admin-options-page.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/pro/admin/admin-settings-updates.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/pro/admin/views/html-options-page.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/pro/admin/views/html-settings-updates.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/pro/assets/css/acf-pro-field-group.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/pro/assets/css/acf-pro-input.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/pro/assets/js/acf-pro-field-group.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/pro/assets/js/acf-pro-field-group.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/pro/assets/js/acf-pro-input.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/pro/assets/js/acf-pro-input.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/pro/fields/class-acf-field-clone.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/pro/fields/class-acf-field-flexible-content.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/pro/fields/class-acf-field-gallery.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/pro/fields/class-acf-field-repeater.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/pro/locations/class-acf-location-options-page.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/pro/options-page.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/pro/updates.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/readme.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/luckymoney/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/luckymoney/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/luckymoney/css/media.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/luckymoney/css/media.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/luckymoney/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/luckymoney/functions.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/luckymoney/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/luckymoney/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/luckymoney/images/2018-Red-Hologram-Dogs-600x600.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/luckymoney/images/CHINESEdogsBILLS_700x420_0968cf23-1f8a-4a86-9d9e-0aa45c4caa11-600x600.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/luckymoney/images/ChinZodiacMOCK_Snake-600x600.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/luckymoney/images/Collect_Limited-600x600.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/luckymoney/images/Collect_Lucky_5ba764da-af94-4dce-bd93-31e97cc73557-600x600.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/luckymoney/images/Collect_Myth-600x600.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/luckymoney/images/DOG_Buffalo_Box-600x600.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/luckymoney/images/DOG_RDGLDfoil__2-600x600.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/luckymoney/images/YearDOG_Folio_1bill-600x600.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/luckymoney/images/YearDOG_Folio_2bill-600x600.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/luckymoney/images/YearDOG_mockENV_1bill-600x600.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/luckymoney/images/YearDOG_mockENV_2bill-600x600.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/luckymoney/images/Year_of_dog_10_Gold_Hologram_serial_number_1_of_88-600x600.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/luckymoney/images/ZodiacPaint_13set-1844x1106-600x600.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/luckymoney/images/banner-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/luckymoney/images/banner-1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/luckymoney/images/collection-img1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/luckymoney/images/collection-img3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/luckymoney/inc/home_banner.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/luckymoney/inc/home_banner.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/luckymoney/images/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/luckymoney/images/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/luckymoney/images/footer-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/luckymoney/images/logo.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/luckymoney/inc/main-menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/luckymoney/inc/main-menu.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/luckymoney/inc/widgets/html/top_content.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/luckymoney/inc/widgets/widgets.ini" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/luckymoney/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/luckymoney/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/luckymoney/test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/luckymoney/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/luckymoney/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/luckymoney/js/slider.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/luckymoney/woocommerce/loop/loop-start.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/luckymoney/woocommerce/loop/loop-start.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -278,40 +29,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="functions.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/luckymoney/functions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="496">
-              <caret line="319" column="2" selection-start-line="319" selection-start-column="2" selection-end-line="319" selection-end-column="2" />
+            <state relative-caret-position="505">
+              <caret line="102" column="39" selection-start-line="102" selection-start-column="39" selection-end-line="102" selection-end-column="39" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main-menu.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/luckymoney/inc/main-menu.php">
+      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/luckymoney/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="50" column="40" selection-start-line="50" selection-start-column="40" selection-end-line="50" selection-end-column="40" />
+            <state relative-caret-position="455">
+              <caret line="60" column="60" selection-start-line="60" selection-start-column="60" selection-end-line="60" selection-end-column="60" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/luckymoney/css/main.css">
+      <file leaf-file-name="logo.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/luckymoney/inc/logo.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="497">
-              <caret line="757" lean-forward="true" selection-start-line="757" selection-end-line="757" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="homepage.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/luckymoney/homepage.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="21" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+            <state relative-caret-position="17">
+              <caret line="1" column="25" lean-forward="true" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
               <folding>
-                <element signature="e#6#13#0#PHP" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -320,26 +62,65 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/luckymoney/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="6" column="24" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="24" />
+            <state relative-caret-position="204">
+              <caret line="18" column="54" selection-start-line="18" selection-start-column="54" selection-end-line="18" selection-end-column="54" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="page.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/luckymoney/page.php">
+      <file leaf-file-name="single-post.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/luckymoney/single-post.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" selection-end-line="20" />
+            <state relative-caret-position="306">
+              <caret line="18" column="53" selection-start-line="18" selection-start-column="53" selection-end-line="18" selection-end-column="53" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="product-image.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/luckymoney/woocommerce/single-product/product-image.php">
+      <file leaf-file-name="cart_top.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/luckymoney/inc/cart_top.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="32" column="6" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="6" />
+            <state relative-caret-position="289">
+              <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="footer.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/luckymoney/footer.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
+              <folding>
+                <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main-menu.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/luckymoney/inc/main-menu.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="28" column="21" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/luckymoney/css/main.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="299">
+              <caret line="758" lean-forward="true" selection-start-line="758" selection-end-line="758" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="loop-start.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/luckymoney/woocommerce/loop/loop-start.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="25" column="37" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -348,8 +129,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>images/</find>
-      <find>jQuery(document).ready(function(e){}),!function(e,t,n){function i(e){var t=C.className,n=T._config.classPrefix||&quot;&quot;;if(k&amp;&amp;(t=t.baseVal),T._config.enableJSClass){var i=new RegExp(&quot;(^|\\s)&quot;+n+&quot;no-js(\\s|$)&quot;);t=t.replace(i,&quot;$1&quot;+n+&quot;js$2&quot;)}T._config.enableClasses&amp;&amp;(t+=&quot; &quot;+n+e.join(&quot; &quot;+n),k?C.className.baseVal=t:C.className=t)}function r(e,t){return typeof e===t}function o(){var e,t,n,i,o,a,s;for(var l in x){if(e=[],t=x[l],t.name&amp;&amp;(e.push(t.name.toLowerCase()),t.options&amp;&amp;t.options.aliases&amp;&amp;t.options.aliases.length))for(n=0;n&lt;t.options.aliases.length;n++)e.push(t.options.aliases[n].toLowerCase());for(i=r(t.fn,&quot;function&quot;)?t.fn():t.fn,o=0;o&lt;e.length;o++)a=e[o],s=a.split(&quot;.&quot;),1===s.length?T[s[0]]=i:(!T[s[0]]||T[s[0]]instanceof Boolean||(T[s[0]]=new Boolean(T[s[0]])),T[s[0]][s[1]]=i),y.push((i?&quot;&quot;:&quot;no-&quot;)+s.join(&quot;-&quot;))}}function a(){return&quot;function&quot;!=typeof t.createElement?t.createElement(arguments[0]):k?t.createElementNS.call(t,&quot;http://www.w3.org/2000/svg&quot;,arguments[0]):t.createElement.apply(t,arguments)}function s(e,t){if(&quot;object&quot;==typeof e)for(var n in e)A(e,n)&amp;&amp;s(n,e[n]);else{e=e.toLowerCase();var r=e.split(&quot;.&quot;),o=T[r[0]];if(2==r.length&amp;&amp;(o=o[r[1]]),&quot;undefined&quot;!=typeof o)return T;t=&quot;function&quot;==typeof t?t():t,1==r.length?T[r[0]]=t:(!T[r[0]]||T[r[0]]instanceof Boolean||(T[r[0]]=new Boolean(T[r[0]])),T[r[0]][r[1]]=t),i([(t&amp;&amp;0!=t?&quot;&quot;:&quot;no-&quot;)+r.join(&quot;-&quot;)]),T._trigger(e,t)}return T}function l(e){return e.replace(/([a-z])-([a-z])/g,function(e,t,n){return t+n.toUpperCase()}).replace(/^-/,&quot;&quot;)}function d(e,t){return!!~(&quot;&quot;+e).indexOf(t)}function u(){var e=t.body;return e||(e=a(k?&quot;svg&quot;:&quot;body&quot;),e.fake=!0),e}function c(e,n,i,r){var o,s,l,d,c=&quot;modernizr&quot;,f=a(&quot;div&quot;),p=u();if(parseInt(i,10))for(;i--;)l=a(&quot;div&quot;),l.id=r?r[i]:c+(i+1),f.appendChild(l);return o=a(&quot;style&quot;),o.type=&quot;text/css&quot;,o.id=&quot;s&quot;+c,(p.fake?p:f).appendChild(o),p.appendChild(f),o.styleSheet?o.styleSheet.cssText=e:o.appendChild(t.createTextNode(e)),f.id=c,p.fake&amp;&amp;(p.style.background=&quot;&quot;,p.style.overflow=&quot;hidden&quot;,d=C.style.overflow,C.style.overflow=&quot;hidden&quot;,C.appendChild(p)),s=n(f,e),p.fake?(p.parentNode.removeChild(p),C.style.overflow=d,C.offsetHeight):f.parentNode.removeChild(f),!!s}function f(e,t){return function(){return e.apply(t,arguments)}}function p(e,t,n){var i;for(var o in e)if(e[o]in t)return n===!1?e[o]:(i=t[e[o]],r(i,&quot;function&quot;)?f(i,n||t):i);return!1}function m(e){return e.replace(/([A-Z])/g,function(e,t){return&quot;-&quot;+t.toLowerCase()}).replace(/^ms-/,&quot;-ms-&quot;)}function h(t,i){var r=t.length;if(&quot;CSS&quot;in e&amp;&amp;&quot;supports&quot;in e.CSS){for(;r--;)if(e.CSS.supports(m(t[r]),i))return!0;return!1}if(&quot;CSSSupportsRule&quot;in e){for(var o=[];r--;)o.push(&quot;(&quot;+m(t[r])+&quot;:&quot;+i+&quot;)&quot;);return o=o.join(&quot; or &quot;),c(&quot;@supports (&quot;+o+&quot;) { #modernizr { position: absolute; } }&quot;,function(e){return&quot;absolute&quot;==getComputedStyle(e,null).position})}return n}function v(e,t,i,o){function s(){c&amp;&amp;(delete W.style,delete W.modElem)}if(o=r(o,&quot;undefined&quot;)?!1:o,!r(i,&quot;undefined&quot;)){var u=h(e,i);if(!r(u,&quot;undefined&quot;))return u}for(var c,f,p,m,v,g=[&quot;modernizr&quot;,&quot;tspan&quot;];!W.style;)c=!0,W.modElem=a(g.shift()),W.style=W.modElem.style;for(p=e.length,f=0;p&gt;f;f++)if(m=e[f],v=W.style[m],d(m,&quot;-&quot;)&amp;&amp;(m=l(m)),W.style[m]!==n){if(o||r(i,&quot;undefined&quot;))return s(),&quot;pfx&quot;==t?m:!0;try{W.style[m]=i}catch(b){}if(W.style[m]!=v)return s(),&quot;pfx&quot;==t?m:!0}return s(),!1}function g(e,t,n,i,o){var a=e.charAt(0).toUpperCase()+e.slice(1),s=(e+&quot; &quot;+R.join(a+&quot; &quot;)+a).split(&quot; &quot;);return r(t,&quot;string&quot;)||r(t,&quot;undefined&quot;)?v(s,t,i,o):(s=(e+&quot; &quot;+N.join(a+&quot; &quot;)+a).split(&quot; &quot;),p(s,t,n))}function b(e,t,i){return g(e,n,n,t,i)}var y=[],x=[],w={_version:&quot;3.0.0&quot;,_config:{classPrefix:&quot;&quot;,enableClasses:!0,enableJSClass:!0,usePrefixes:!0},_q:[],on:function(e,t){var n=this;setTimeout(function(){t(n[e])},0)},addTest:function(e,t,n){x.push({name:e,fn:t,options:n})},addAsyncTest:function(e){x.push({name:null,fn:e})}},T=function(){};T.prototype=w,T=new T,T.addTest(&quot;cookies&quot;,function(){try{t.cookie=&quot;cookietest=1&quot;;var e=-1!=t.cookie.indexOf(&quot;cookietest=&quot;);return t.cookie=&quot;cookietest=1; expires=Thu, 01-Jan-1970 00:00:01 GMT&quot;,e}catch(n){return!1}}),T.addTest(&quot;ie8compat&quot;,!e.addEventListener&amp;&amp;!!t.documentMode&amp;&amp;7===t.documentMode),T.addTest(&quot;serviceworker&quot;,&quot;serviceWorker&quot;in navigator),T.addTest(&quot;svg&quot;,!!t.createElementNS&amp;&amp;!!t.createElementNS(&quot;http://www.w3.org/2000/svg&quot;,&quot;svg&quot;).createSVGRect),T.addTest(&quot;websockets&quot;,&quot;WebSocket&quot;in e&amp;&amp;2===e.WebSocket.CLOSING);var C=t.documentElement,k=&quot;svg&quot;===C.nodeName.toLowerCase();T.addTest(&quot;canvas&quot;,function(){var e=a(&quot;canvas&quot;);return!(!e.getContext||!e.getContext(&quot;2d&quot;))}),T.addTest(&quot;canvastext&quot;,function(){return T.canvas===!1?!1:&quot;function&quot;==typeof a(&quot;canvas&quot;).getContext(&quot;2d&quot;).fillText});var S=a(&quot;input&quot;),_=&quot;search tel url email datetime date month week time datetime-local number range color&quot;.split(&quot; &quot;),E={};T.inputtypes=function(e){for(var i,r,o,a=e.length,s=&quot;:)&quot;,l=0;a&gt;l;l++)S.setAttribute(&quot;type&quot;,i=e[l]),o=&quot;text&quot;!==S.type&amp;&amp;&quot;style&quot;in S,o&amp;&amp;(S.value=s,S.style.cssText=&quot;position:absolute;visibility:hidden;&quot;,/^range$/.test(i)&amp;&amp;S.style.WebkitAppearance!==n?(C.appendChild(S),r=t.defaultView,o=r.getComputedStyle&amp;&amp;&quot;textfield&quot;!==r.getComputedStyle(S,null).WebkitAppearance&amp;&amp;0!==S.offsetHeight,C.removeChild(S)):/^(search|tel)$/.test(i)||(o=/^(url|email|number)$/.test(i)?S.checkValidity&amp;&amp;S.checkValidity()===!1:S.value!=s)),E[e[l]]=!!o;return E}(_),T.addTest(&quot;userdata&quot;,!!a(&quot;div&quot;).addBehavior),T.addTest(&quot;video&quot;,function(){var e=a(&quot;video&quot;),t=!1;try{(t=!!e.canPlayType)&amp;&amp;(t=new Boolean(t),t.ogg=e.canPlayType('video/ogg; codecs=&quot;theora&quot;').replace(/^no$/,&quot;&quot;),t.h264=e.canPlayType('video/mp4; codecs=&quot;avc1.42E01E&quot;').replace(/^no$/,&quot;&quot;),t.webm=e.canPlayType('video/webm; codecs=&quot;vp8, vorbis&quot;').replace(/^no$/,&quot;&quot;),t.vp9=e.canPlayType('video/webm; codecs=&quot;vp9&quot;').replace(/^no$/,&quot;&quot;),t.hls=e.canPlayType('application/x-mpegURL; codecs=&quot;avc1.42E01E&quot;').replace(/^no$/,&quot;&quot;))}catch(n){}return t}),T.addTest(&quot;multiplebgs&quot;,function(){var e=a(&quot;a&quot;).style;return e.cssText=&quot;background:url(https://),url(https://),red url(https://)&quot;,/(url\s*\(.*?){3}/.test(e.background)}),T.addTest(&quot;rgba&quot;,function(){var e=a(&quot;a&quot;).style;return e.cssText=&quot;background-color:rgba(150,255,150,.5)&quot;,(&quot;&quot;+e.backgroundColor).indexOf(&quot;rgba&quot;)&gt;-1}),T.addTest(&quot;placeholder&quot;,&quot;placeholder&quot;in a(&quot;input&quot;)&amp;&amp;&quot;placeholder&quot;in a(&quot;textarea&quot;)),T.addTest(&quot;inlinesvg&quot;,function(){var e=a(&quot;div&quot;);return e.innerHTML=&quot;&lt;svg/&gt;&quot;,&quot;http://www.w3.org/2000/svg&quot;==(&quot;undefined&quot;!=typeof SVGRect&amp;&amp;e.firstChild&amp;&amp;e.firstChild.namespaceURI)});var P=function(e){function n(t,n){var r;return t?(n&amp;&amp;&quot;string&quot;!=typeof n||(n=a(n||&quot;div&quot;)),t=&quot;on&quot;+t,r=t in n,!r&amp;&amp;i&amp;&amp;(n.setAttribute||(n=a(&quot;div&quot;)),n.setAttribute(t,&quot;&quot;),r=&quot;function&quot;==typeof n[t],n[t]!==e&amp;&amp;(n[t]=e),n.removeAttribute(t)),r):!1}var i=!(&quot;onblur&quot;in t.documentElement);return n}();w.hasEvent=P,T.addTest(&quot;ambientlight&quot;,P(&quot;devicelight&quot;,e)),T.addTest(&quot;inputsearchevent&quot;,P(&quot;search&quot;));var z=w._config.usePrefixes?&quot; -webkit- -moz- -o- -ms- &quot;.split(&quot; &quot;):[];w._prefixes=z,T.addTest(&quot;csscalc&quot;,function(){var e=&quot;width:&quot;,t=&quot;calc(10px);&quot;,n=a(&quot;a&quot;);return n.style.cssText=e+z.join(t+e),!!n.style.length}),T.addTest(&quot;cssgradients&quot;,function(){var e=&quot;background-image:&quot;,t=&quot;gradient(linear,left top,right bottom,from(#9f9),to(white));&quot;,n=&quot;linear-gradient(left top,#9f9, white);&quot;,i=e+z.join(n+e).slice(0,-e.length);T._config.usePrefixes&amp;&amp;(i+=e+&quot;-webkit-&quot;+t);var r=a(&quot;a&quot;),o=r.style;return o.cssText=i,(&quot;&quot;+o.backgroundImage).indexOf(&quot;gradient&quot;)&gt;-1}),T.addTest(&quot;opacity&quot;,function(){var e=a(&quot;a&quot;).style;return e.cssText=z.join(&quot;opacity:.55;&quot;),/^0.55$/.test(e.opacity)});var j=&quot;CSS&quot;in e&amp;&amp;&quot;supports&quot;in e.CSS,L=&quot;supportsCSS&quot;in e;T.addTest(&quot;supports&quot;,j||L);var A;!function(){var e={}.hasOwnProperty;A=r(e,&quot;undefined&quot;)||r(e.call,&quot;undefined&quot;)?function(e,t){return t in e&amp;&amp;r(e.constructor.prototype[t],&quot;undefined&quot;)}:function(t,n){return e.call(t,n)}}(),w._l={},w.on=function(e,t){this._l[e]||(this._l[e]=[]),this._l[e].push(t),T.hasOwnProperty(e)&amp;&amp;setTimeout(function(){T._trigger(e,T[e])},0)},w._trigger=function(e,t){if(this._l[e]){var n=this._l[e];setTimeout(function(){var e,i;for(e=0;e&lt;n.length;e++)(i=n[e])(t)},0),delete this._l[e]}},T._q.push(function(){w.addTest=s}),T.addTest(&quot;svgasimg&quot;,t.implementation.hasFeature(&quot;http://www.w3.org/TR/SVG11/feature#Image&quot;,&quot;1.1&quot;));var q=&quot;Moz O ms Webkit&quot;,R=w._config.usePrefixes?q.split(&quot; &quot;):[];w._cssomPrefixes=R;var M=function(t){var i,r=z.length,o=e.CSSRule;if(&quot;undefined&quot;==typeof o)return n;if(!t)return!1;if(t=t.replace(/^@/,&quot;&quot;),i=t.replace(/-/g,&quot;_&quot;).toUpperCase()+&quot;_RULE&quot;,i in o)return&quot;@&quot;+t;for(var a=0;r&gt;a;a++){var s=z[a],l=s.toUpperCase()+&quot;_&quot;+i;if(l in o)return&quot;@-&quot;+s.toLowerCase()+&quot;-&quot;+t}return!1};w.atRule=M;var N=w._config.usePrefixes?q.toLowerCase().split(&quot; &quot;):[];w._domPrefixes=N;var B=w.testStyles=c;T.addTest(&quot;touchevents&quot;,function(){var n;if(&quot;ontouchstart&quot;in e||e.DocumentTouch&amp;&amp;t instanceof DocumentTouch)n=!0;else{var i=[&quot;@media (&quot;,z.join(&quot;touch-enabled),(&quot;),&quot;heartz&quot;,&quot;)&quot;,&quot;{#modernizr{top:9px;position:absolute}}&quot;].join(&quot;&quot;);B(i,function(e){n=9===e.offsetTop})}return n}),T.addTest(&quot;checked&quot;,function(){return B(&quot;#modernizr {position:absolute} #modernizr input {margin-left:10px} #modernizr :checked {margin-left:20px;display:block}&quot;,function(e){var t=a(&quot;input&quot;);return t.setAttribute(&quot;type&quot;,&quot;checkbox&quot;),t.setAttribute(&quot;checked&quot;,&quot;checked&quot;),e.appendChild(t),20===t.offsetLeft})}),B(&quot;#modernizr{display: table; direction: ltr}#modernizr div{display: table-cell; padding: 10px}&quot;,function(e){var t,n=e.childNodes;t=n[0].offsetLeft&lt;n[1].offsetLeft,T.addTest(&quot;displaytable&quot;,t,{aliases:[&quot;display-table&quot;]})},2);var O=function(){var e=navigator.userAgent,t=e.match(/applewebkit\/([0-9]+)/gi)&amp;&amp;parseFloat(RegExp.$1),n=e.match(/w(eb)?osbrowser/gi),i=e.match(/windows phone/gi)&amp;&amp;e.match(/iemobile\/([0-9])+/gi)&amp;&amp;parseFloat(RegExp.$1)&gt;=9,r=533&gt;t&amp;&amp;e.match(/android/gi);return n||r||i}();O?T.addTest(&quot;fontface&quot;,!1):B('@font-face {font-family:&quot;font&quot;;src:url(&quot;https://&quot;)}',function(e,n){var i=t.getElementById(&quot;smodernizr&quot;),r=i.sheet||i.styleSheet,o=r?r.cssRules&amp;&amp;r.cssRules[0]?r.cssRules[0].cssText:r.cssText||&quot;&quot;:&quot;&quot;,a=/src/i.test(o)&amp;&amp;0===o.indexOf(n.split(&quot; &quot;)[0]);T.addTest(&quot;fontface&quot;,a)}),T.addTest(&quot;cssinvalid&quot;,function(){return B(&quot;#modernizr input{height:0;border:0;padding:0;margin:0;width:10px} #modernizr input:invalid{width:50px}&quot;,function(e){var t=a(&quot;input&quot;);return t.required=!0,e.appendChild(t),t.clientWidth&gt;10})}),B(&quot;#modernizr div {width:100px} #modernizr :last-child{width:200px;display:block}&quot;,function(e){T.addTest(&quot;lastchild&quot;,e.lastChild.offsetWidth&gt;e.firstChild.offsetWidth)},2),B(&quot;#modernizr div {width:1px} #modernizr div:nth-child(2n) {width:2px;}&quot;,function(e){T.addTest(&quot;nthchild&quot;,function(){for(var t=e.getElementsByTagName(&quot;div&quot;),n=!0,i=0;5&gt;i;i++)n=n&amp;&amp;t[i].offsetWidth===i%2+1;return n})},5);var $=function(){var t=e.matchMedia||e.msMatchMedia;return t?function(e){var n=t(e);return n&amp;&amp;n.matches||!1}:function(t){var n=!1;return c(&quot;@media &quot;+t+&quot; { #modernizr { position: absolute; } }&quot;,function(t){n=&quot;absolute&quot;==(e.getComputedStyle?e.getComputedStyle(t,null):t.currentStyle).position}),n}}();w.mq=$,T.addTest(&quot;mediaqueries&quot;,$(&quot;only all&quot;));var H={elem:a(&quot;modernizr&quot;)};T._q.push(function(){delete H.elem});var W={style:H.elem.style};T._q.unshift(function(){delete W.style});var U=w.testProp=function(e,t,i){return v([e],n,t,i)};T.addTest(&quot;textshadow&quot;,U(&quot;textShadow&quot;,&quot;1px 1px&quot;)),w.testAllProps=g,w.testAllProps=b,T.addTest(&quot;bgpositionxy&quot;,function(){return b(&quot;backgroundPositionX&quot;,&quot;3px&quot;,!0)&amp;&amp;b(&quot;backgroundPositionY&quot;,&quot;5px&quot;,!0)}),T.addTest(&quot;backgroundsize&quot;,b(&quot;backgroundSize&quot;,&quot;100%&quot;,!0)),T.addTest(&quot;bgsizecover&quot;,b(&quot;backgroundSize&quot;,&quot;cover&quot;)),T.addTest(&quot;borderimage&quot;,b(&quot;borderImage&quot;,&quot;url() 1&quot;,!0)),T.addTest(&quot;borderradius&quot;,b(&quot;borderRadius&quot;,&quot;0px&quot;,!0)),T.addTest(&quot;boxshadow&quot;,b(&quot;boxShadow&quot;,&quot;1px 1px&quot;,!0)),T.addTest(&quot;boxsizing&quot;,b(&quot;boxSizing&quot;,&quot;border-box&quot;,!0)&amp;&amp;(t.documentMode===n||t.documentMode&gt;7)),T.addTest(&quot;flexbox&quot;,b(&quot;flexBasis&quot;,&quot;1px&quot;,!0)),T.addTest(&quot;flexboxlegacy&quot;,b(&quot;boxDirection&quot;,&quot;reverse&quot;,!0)),T.addTest(&quot;flexboxtweener&quot;,b(&quot;flexAlign&quot;,&quot;end&quot;,!0)),T.addTest(&quot;flexwrap&quot;,b(&quot;flexWrap&quot;,&quot;wrap&quot;,!0)),T.addAsyncTest(function(){function n(){function r(){try{var e=a(&quot;div&quot;),n=a(&quot;span&quot;),i=e.style,r=0,o=0,s=!1,l=t.body.firstElementChild||t.body.firstChild;return e.appendChild(n),n.innerHTML=&quot;Bacon ipsum dolor sit amet jerky velit in culpa hamburger et. Laborum dolor proident, enim dolore duis commodo et strip steak. Salami anim et, veniam consectetur dolore qui tenderloin jowl velit sirloin. Et ad culpa, fatback cillum jowl ball tip ham hock nulla short ribs pariatur aute. Pig pancetta ham bresaola, ut boudin nostrud commodo flank esse cow tongue culpa. Pork belly bresaola enim pig, ea consectetur nisi. Fugiat officia turkey, ea cow jowl pariatur ullamco proident do laborum velit sausage. Magna biltong sint tri-tip commodo sed bacon, esse proident aliquip. Ullamco ham sint fugiat, velit in enim sed mollit nulla cow ut adipisicing nostrud consectetur. Proident dolore beef ribs, laborum nostrud meatball ea laboris rump cupidatat labore culpa. Shankle minim beef, velit sint cupidatat fugiat tenderloin pig et ball tip. Ut cow fatback salami, bacon ball tip et in shank strip steak bresaola. In ut pork belly sed mollit tri-tip magna culpa veniam, short ribs qui in andouille ham consequat. Dolore bacon t-bone, velit short ribs enim strip steak nulla. Voluptate labore ut, biltong swine irure jerky. Cupidatat excepteur aliquip salami dolore. Ball tip strip steak in pork dolor. Ad in esse biltong. Dolore tenderloin exercitation ad pork loin t-bone, dolore in chicken ball tip qui pig. Ut culpa tongue, sint ribeye dolore ex shank voluptate hamburger. Jowl et tempor, boudin pork chop labore ham hock drumstick consectetur tri-tip elit swine meatball chicken ground round. Proident shankle mollit dolore. Shoulder ut duis t-bone quis reprehenderit. Meatloaf dolore minim strip steak, laboris ea aute bacon beef ribs elit shank in veniam drumstick qui. Ex laboris meatball cow tongue pork belly. Ea ball tip reprehenderit pig, sed fatback boudin dolore flank aliquip laboris eu quis. Beef ribs duis beef, cow corned beef adipisicing commodo nisi deserunt exercitation. Cillum dolor t-bone spare ribs, ham hock est sirloin. Brisket irure meatloaf in, boudin pork belly sirloin ball tip. Sirloin sint irure nisi nostrud aliqua. Nostrud nulla aute, enim officia culpa ham hock. Aliqua reprehenderit dolore sunt nostrud sausage, ea boudin pork loin ut t-bone ham tempor. Tri-tip et pancetta drumstick laborum. Ham hock magna do nostrud in proident. Ex ground round fatback, venison non ribeye in.&quot;,t.body.insertBefore(e,l),i.cssText=&quot;position:absolute;top:0;left:0;width:5em;text-align:justify;text-justification:newspaper;&quot;,r=n.offsetHeight,o=n.offsetWidth,i.cssText=&quot;position:absolute;top:0;left:0;width:5em;text-align:justify;text-justification:newspaper;&quot;+z.join(&quot;hyphens:auto; &quot;),s=n.offsetHeight!=r||n.offsetWidth!=o,t.body.removeChild(e),e.removeChild(n),s}catch(d){return!1}}function o(e,n){try{var i=a(&quot;div&quot;),r=a(&quot;span&quot;),o=i.style,s=0,l=!1,d=!1,u=!1,c=t.body.firstElementChild||t.body.firstChild;return o.cssText=&quot;position:absolute;top:0;left:0;overflow:visible;width:1.25em;&quot;,i.appendChild(r),t.body.insertBefore(i,c),r.innerHTML=&quot;mm&quot;,s=r.offsetHeight,r.innerHTML=&quot;m&quot;+e+&quot;m&quot;,d=r.offsetHeight&gt;s,n?(r.innerHTML=&quot;m&lt;br /&gt;m&quot;,s=r.offsetWidth,r.innerHTML=&quot;m&quot;+e+&quot;m&quot;,u=r.offsetWidth&gt;s):u=!0,d===!0&amp;&amp;u===!0&amp;&amp;(l=!0),t.body.removeChild(i),i.removeChild(r),l}catch(f){return!1}}function l(n){try{var i,r=a(&quot;input&quot;),o=a(&quot;div&quot;),s=&quot;lebowski&quot;,l=!1,d=t.body.firstElementChild||t.body.firstChild;if(o.innerHTML=s+n+s,t.body.insertBefore(o,d),t.body.insertBefore(r,o),r.setSelectionRange?(r.focus(),r.setSelectionRange(0,0)):r.createTextRange&amp;&amp;(i=r.createTextRange(),i.collapse(!0),i.moveEnd(&quot;character&quot;,0),i.moveStart(&quot;character&quot;,0),i.select()),e.find)l=e.find(s+s);else try{i=e.self.document.body.createTextRange(),l=i.findText(s+s)}catch(u){l=!1}return t.body.removeChild(o),t.body.removeChild(r),l}catch(u){return!1}}return t.body||t.getElementsByTagName(&quot;body&quot;)[0]?(s(&quot;csshyphens&quot;,function(){if(!b(&quot;hyphens&quot;,&quot;auto&quot;,!0))return!1;try{return r()}catch(e){return!1}}),s(&quot;softhyphens&quot;,function(){try{return o(&quot;&amp;#173;&quot;,!0)&amp;&amp;o(&quot;&amp;#8203;&quot;,!1)}catch(e){return!1}}),void s(&quot;softhyphensfind&quot;,function(){try{return l(&quot;&amp;#173;&quot;)&amp;&amp;l(&quot;&amp;#8203;&quot;)}catch(e){return!1}})):void setTimeout(n,i)}var i=300;setTimeout(n,i)}),T.addTest(&quot;csstransforms&quot;,function(){return-1===navigator.userAgent.indexOf(&quot;Android 2.&quot;)&amp;&amp;b(&quot;transform&quot;,&quot;scale(1)&quot;,!0)}),T.addTest(&quot;csstransforms3d&quot;,function(){var e=!!b(&quot;perspective&quot;,&quot;1px&quot;,!0),t=T._config.usePrefixes;if(e&amp;&amp;(!t||&quot;webkitPerspective&quot;in C.style)){var n;T.supports?n=&quot;@supports (perspective: 1px)&quot;:(n=&quot;@media (transform-3d)&quot;,t&amp;&amp;(n+=&quot;,(-webkit-transform-3d)&quot;)),n+=&quot;{#modernizr{left:9px;position:absolute;height:5px;margin:0;padding:0;border:0}}&quot;,B(n,function(t){e=9===t.offsetLeft&amp;&amp;5===t.offsetHeight})}return e}),T.addTest(&quot;preserve3d&quot;,b(&quot;transformStyle&quot;,&quot;preserve-3d&quot;)),T.addTest(&quot;csstransitions&quot;,b(&quot;transition&quot;,&quot;all&quot;,!0));var V=w.prefixed=function(e,t,n){return 0===e.indexOf(&quot;@&quot;)?M(e):(-1!=e.indexOf(&quot;-&quot;)&amp;&amp;(e=l(e)),t?g(e,t,n):g(e,&quot;pfx&quot;))};T.addTest(&quot;objectfit&quot;,!!V(&quot;objectFit&quot;),{aliases:[&quot;object-fit&quot;]}),o(),i(y),delete w.addTest,delete w.addAsyncTest;for(var I=0;I&lt;T._q.length;I++)T._q[I]();e.Modernizr=T}(window,document);</find>
       <find>storefront_product_columns_wrapper</find>
       <find>woocommerce-result-count</find>
       <find>woocommerce-ordering</find>
@@ -375,6 +154,11 @@
       <find>#custom_html-2</find>
       <find>is</find>
       <find>.info-text p</find>
+      <find>menu_mobile</find>
+      <find>Tiền lì xì tết 2019</find>
+      <find>icon-round menu-mobi-view</find>
+      <find>menu-categories</find>
+      <find>mobiview-search</find>
     </findStrings>
     <replaceStrings>
       <replace>&quot;&lt;?php echo THEME_CSS_URL ?&gt;/</replace>
@@ -421,19 +205,23 @@
         <option value="$PROJECT_DIR$/wp-content/themes/luckymoney/page.php" />
         <option value="$USER_HOME$/Desktop/woocommerce-smallscreen.css" />
         <option value="$PROJECT_DIR$/wp-content/themes/luckymoney/test.html" />
-        <option value="$PROJECT_DIR$/wp-content/themes/luckymoney/js/main.js" />
         <option value="$USER_HOME$/Desktop/test/2018 Chinese New Year – YEAR OF THE DOG – Gold Hologram Legal Tender U.S. $2 BILL with Blue Folio – New Year Money_files/jquery_002.js" />
         <option value="$PROJECT_DIR$/../test.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/luckymoney/inc/home_banner.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/luckymoney/header.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/luckymoney/inc/main-menu.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/luckymoney/woocommerce/news.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/luckymoney/news.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/luckymoney/homepage.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/luckymoney/js/main.js" />
+        <option value="$PROJECT_DIR$/wp-content/themes/luckymoney/css/media.css" />
+        <option value="$PROJECT_DIR$/wp-content/themes/luckymoney/inc/cart_top.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/luckymoney/inc/main-menu.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/luckymoney/header.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/luckymoney/inc/logo.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/luckymoney/functions.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/luckymoney/woocommerce/loop/loop-start.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/luckymoney/single-post.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/luckymoney/index.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/luckymoney/css/main.css" />
-        <option value="$PROJECT_DIR$/wp-content/themes/luckymoney/functions.php" />
       </list>
     </option>
   </component>
@@ -446,11 +234,10 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="574" />
-    <option name="y" value="-25" />
-    <option name="width" value="1346" />
-    <option name="height" value="688" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-7" />
+    <option name="width" value="697" />
+    <option name="height" value="735" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -458,6 +245,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -483,31 +271,10 @@
               <item name="themes" type="462c0819:PsiDirectoryNode" />
               <item name="luckymoney" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="tienlixi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tienlixi" type="462c0819:PsiDirectoryNode" />
-              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="twentyfifteen" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tienlixi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tienlixi" type="462c0819:PsiDirectoryNode" />
-              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
-              <item name="uploads" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tienlixi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tienlixi" type="462c0819:PsiDirectoryNode" />
-              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
-              <item name="uploads" type="462c0819:PsiDirectoryNode" />
-              <item name="2018" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -548,12 +315,14 @@
       <workItem from="1536725653950" duration="15331000" />
       <workItem from="1536764648685" duration="1179000" />
       <workItem from="1536803787134" duration="19110000" />
-      <workItem from="1536887974600" duration="23624000" />
+      <workItem from="1536887974600" duration="23974000" />
+      <workItem from="1536974357165" duration="631000" />
+      <workItem from="1536975665633" duration="7289000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="112764000" />
+    <option name="totallyTimeSpent" value="121034000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -565,12 +334,12 @@
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -588,62 +357,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/luckymoney/woocommerce/archive-product.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="32" column="58" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/wc-template-functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="885" column="37" selection-start-line="885" selection-start-column="37" selection-end-line="885" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/luckymoney/woocommerce/loop/orderby.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="26" column="79" selection-start-line="26" selection-start-column="79" selection-end-line="26" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/luckymoney/woocommerce/single-product/tabs/tabs.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-102" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/luckymoney/woocommerce/single-product/price.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/woocommerce/assets/css/admin.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="1" column="80388" selection-start-line="1" selection-start-column="80388" selection-end-line="1" selection-end-column="80388" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/luckymoney/woocommerce/single-product/product-thumbnails.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/test/2018 Chinese New Year – YEAR OF THE DOG – Gold Hologram Legal Tender U.S. $2 BILL with Blue Folio – New Year Money_files/single-product.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-541">
-          <caret line="24" column="46" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/test/2018 Chinese New Year – YEAR OF THE DOG – Gold Hologram Legal Tender U.S. $2 BILL with Blue Folio – New Year Money_files/photoswipe.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1090" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/luckymoney/js/single-product.js" />
     <entry file="file://$PROJECT_DIR$/wp-content/themes/luckymoney/woocommerce/single-product.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -713,13 +426,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/luckymoney/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="583" column="15" selection-start-line="583" selection-start-column="15" selection-end-line="583" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/luckymoney/test.html" />
     <entry file="file://$USER_HOME$/Desktop/test/2018 Chinese New Year – YEAR OF THE DOG – Gold Hologram Legal Tender U.S. $2 BILL with Blue Folio – New Year Money_files/js.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -754,20 +461,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/test/2018 Chinese New Year – YEAR OF THE DOG – Gold Hologram Legal Tender U.S. $2 BILL with Blue Folio – New Year Money_files/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="47" lean-forward="true" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/luckymoney/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="458">
-          <caret line="84" column="7" selection-start-line="84" selection-start-column="7" selection-end-line="84" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/luckymoney/inc/home_banner.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -779,16 +472,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="292">
           <caret line="79" selection-start-line="79" selection-end-line="79" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/luckymoney/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="70" selection-start-line="70" selection-end-line="70" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#a#0;n#div#1;n#div#0;n#div#1;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -804,43 +487,16 @@
     <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyseventeen/page.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/luckymoney/woocommerce/news.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/luckymoney/custompage.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="22" lean-forward="true" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-          <folding>
-            <element signature="e#6#40#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/luckymoney/woocommerce/news.php" />
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/luckymoney/custompage.php" />
     <entry file="file://$PROJECT_DIR$/../wordpress/wp-content/themes/test/custompage.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
-          <folding>
-            <element signature="e#6#40#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/luckymoney/news.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="2" lean-forward="true" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
-          <folding>
-            <element signature="e#6#33#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/luckymoney/news.php" />
     <entry file="file://$PROJECT_DIR$/wp-content/themes/index.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -853,7 +509,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/luckymoney/woocommerce/single-product/product-image.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
+        <state relative-caret-position="289">
           <caret line="32" column="6" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="6" />
         </state>
       </provider>
@@ -865,48 +521,126 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/luckymoney/woocommerce/loop/loop-start.php">
+    <entry file="file://$USER_HOME$/Desktop/test/2018 Chinese New Year – YEAR OF THE DOG – Gold Hologram Legal Tender U.S. $2 BILL with Blue Folio – New Year Money_files/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="10" column="31" lean-forward="true" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/header.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-357" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/page.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/luckymoney/homepage.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/luckymoney/css/media.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="194" selection-start-line="20" selection-start-column="194" selection-end-line="20" selection-end-column="194" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/luckymoney/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="43" column="7" selection-start-line="43" selection-start-column="7" selection-end-line="43" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/luckymoney/inc/main-menu.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="50" column="40" selection-start-line="50" selection-start-column="40" selection-end-line="50" selection-end-column="40" />
+        <state relative-caret-position="374">
+          <caret line="28" column="21" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/luckymoney/homepage.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/luckymoney/footer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="21" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+        <state relative-caret-position="442">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
           <folding>
-            <element signature="e#6#13#0#PHP" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/luckymoney/inc/cart_top.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/luckymoney/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="455">
+          <caret line="60" column="60" selection-start-line="60" selection-start-column="60" selection-end-line="60" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/luckymoney/inc/logo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="25" lean-forward="true" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#a#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/luckymoney/inc/widgets/html/top_content.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-510" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/luckymoney/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="505">
+          <caret line="102" column="39" selection-start-line="102" selection-start-column="39" selection-end-line="102" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/luckymoney/woocommerce/loop/add-to-cart.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/luckymoney/woocommerce/loop/loop-start.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="25" column="37" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/luckymoney/single-post.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="53" selection-start-line="18" selection-start-column="53" selection-end-line="18" selection-end-column="53" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/luckymoney/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="6" column="24" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="24" />
+        <state relative-caret-position="204">
+          <caret line="18" column="54" selection-start-line="18" selection-start-column="54" selection-end-line="18" selection-end-column="54" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/luckymoney/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="497">
-          <caret line="757" lean-forward="true" selection-start-line="757" selection-end-line="757" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/luckymoney/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
-          <caret line="319" column="2" selection-start-line="319" selection-start-column="2" selection-end-line="319" selection-end-column="2" />
+        <state relative-caret-position="299">
+          <caret line="758" lean-forward="true" selection-start-line="758" selection-end-line="758" />
         </state>
       </provider>
     </entry>

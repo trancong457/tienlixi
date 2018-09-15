@@ -18,7 +18,7 @@ input[type="radio"], input[type="checkbox"] {-webkit-appearance: normal;}
 .mobile-menu-block ul li a:hover,
 .mobile-menu-block ul li a:focus,
 .mobile-menu-block ul li.current-menu-item > a {color:#cd242b;}
-.mobile-menu-block h4, .mobile-menu-block h3 {background:#fff; border-bottom:1px solid rgba(0,0,0,0.05); color:#fff; font-size:14px; font-weight:500; font-family:'Open Sans'; margin:0; padding:15px 15px; text-transform:uppercase; letter-spacing:0.025em;}
+.mobile-menu-block h4, .mobile-menu-block h3 {background:#fff; border-bottom:1px solid rgba(0,0,0,0.05); color:#fff; font-size:14px; font-weight:500; font-family:'Open Sans'; margin:0; padding:0px 0px; text-transform:uppercase; letter-spacing:0.025em;}
 .mobile-menu-block h4 img {display:block; max-width:120px;}
 .mobile-menu-block .CategoryList, .mobile-menu-block .BrandList, .mobile-menu-block .ShopByPrice, .mobile-menu-block .AdditionalInformationList, .mobile-menu-block .AccountNavigationList {margin:0; padding:0; border:none;}
 .mobile-menu-block li {color:#4d4959; font-weight:500; font-size:14px; line-height:normal; text-transform:none; border-bottom:1px solid rgba(0,0,0,0.05);}

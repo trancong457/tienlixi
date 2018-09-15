@@ -13,6 +13,37 @@ jQuery(document).ready(function($){
     $(document).ready(_init.init);
     */
 
+    //Moble Menu Script
+    jQuery(".mobilemenuicon").click(function(){
+        jQuery(this).toggleClass('opened');
+        jQuery("body").toggleClass("mobile-menu-open");
+    });
+    jQuery(".menu-open-overlay").click(function(){
+        jQuery(".mobilemenuicon").removeClass('opened');
+        jQuery("body").removeClass("mobile-menu-open");
+    });
+
+    /* scroll bottom to top */
+    if (jQuery(this).scrollTop() > 200) {
+        jQuery('.scrollup').fadeIn();
+    } else {
+        jQuery('.scrollup').fadeOut();
+    }
+    jQuery(window).scroll(function () {
+        if (jQuery(this).scrollTop() > 200) {
+            jQuery('.scrollup').fadeIn();
+        } else {
+            jQuery('.scrollup').fadeOut();
+        }
+    });
+    jQuery('.scrollup').click(function () {
+        jQuery("html, body").animate({
+            scrollTop: 0
+        }, 600);
+        return false;
+    });
+
+
     jQuery('.slider-for').slick({
         slidesToShow: 1,
         slidesToScroll: 1,

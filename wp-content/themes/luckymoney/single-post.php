@@ -13,10 +13,10 @@
             // The Loop
             while ( have_posts() ) : the_post();
             ?>
-            <div class="col-4">
+            <div class="">
                 <?php
                 if(has_post_thumbnail()){
-                    the_post_thumbnail( array(300, 300) );
+                    the_post_thumbnail( 'medium_large' );
                 }
                 ?>
                 <h2 class="title_content"><a href="<?php the_permalink() ?>" rel="bookmark" title=""><?php the_title(); ?></a></h2>

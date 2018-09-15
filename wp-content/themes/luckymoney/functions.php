@@ -54,7 +54,7 @@ function theme_widgets_init(){
     register_sidebar(array(
         'name'          => __( 'Primary widget area', 'lucky_money' ),
         'id'            => 'primary-widget-area',
-        'description'   => __( 'Thêm Widget vào phía bên tay phải của Website', 'zendvn' ),
+        'description'   => __( 'Show very top of Website', 'lucky_money' ),
         'class'         => '',
         'before_widget' => '<div id="%1$s" class="sidebar-widget %2$s clr">',
         'after_widget'  => '</div>',
@@ -85,9 +85,7 @@ function theme_register_js(){
     $jsUrl = get_template_directory_uri() . '/js';
 
     wp_enqueue_script('script',$jsUrl . '/main.js',array('jquery'),'1.0',true);
-    //wp_enqueue_script('script_1','/slider.js',array('jquery'),'1.0',true);
     wp_enqueue_script('script_1','https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.js',array('jquery'),'1.0',true);
-    //https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.js
 }
 
 /*============================================================================
