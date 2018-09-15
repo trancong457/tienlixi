@@ -18,7 +18,7 @@ input[type="radio"], input[type="checkbox"] {-webkit-appearance: normal;}
 .mobile-menu-block ul li a:hover,
 .mobile-menu-block ul li a:focus,
 .mobile-menu-block ul li.current-menu-item > a {color:#cd242b;}
-.mobile-menu-block h4, .mobile-menu-block h3 {background:#fff; border-bottom:1px solid rgba(0,0,0,0.05); color:#fff; font-size:14px; font-weight:500; font-family:'Open Sans'; margin:0; padding:0px 0px; text-transform:uppercase; letter-spacing:0.025em;}
+.mobile-menu-block h4, .mobile-menu-block h3 {background:#fff; border-bottom:1px solid rgba(0,0,0,0.05); color:#fff; font-size:14px; font-weight:500; font-family:'Open Sans'; margin:0; padding:0.mobiview-searchpx 0px; text-transform:uppercase; letter-spacing:0.025em;}
 .mobile-menu-block h4 img {display:block; max-width:120px;}
 .mobile-menu-block .CategoryList, .mobile-menu-block .BrandList, .mobile-menu-block .ShopByPrice, .mobile-menu-block .AdditionalInformationList, .mobile-menu-block .AccountNavigationList {margin:0; padding:0; border:none;}
 .mobile-menu-block li {color:#4d4959; font-weight:500; font-size:14px; line-height:normal; text-transform:none; border-bottom:1px solid rgba(0,0,0,0.05);}
@@ -73,9 +73,9 @@ h2 {font-size:26px;}
 
 }
 
-@media screen and (min-width:1024px){.dxcdsx {display:block !important;}}
+@media screen and (min-width:800px){.dxcdsx {display:block !important;}}
 /* iPad 768px view*/
-@media screen and (max-width:1023px) {
+@media screen and (max-width:800px) {
 .container {width:740px;}
 .header .container {width:100%; padding:0 10px;}
 h1, h2 {font-size:30px; line-height:normal; margin:0 0 15px;}
@@ -163,7 +163,7 @@ body.woocommerce-account .woocommerce-MyAccount-navigation {margin: 0 0 20px;pad
 }
 
 /* iPhone-6 plus 736 (Landscape) view */
-@media screen and (max-width:767px) {
+@media screen and (max-width:800px) {
 body {-webkit-text-size-adjust:none;}
 .container {width:100%; padding:0 15px;}
 h1, h2 {font-size:24px; line-height:normal; margin:0 0 10px;}
@@ -181,6 +181,13 @@ p {margin:0 0 15px;}
 .header-search {display:none;}
 .mobiview-search {display:block;}
 .cart-icon {margin:0;}
+
+.menu-mobi-view {
+    margin-top: 10px;
+}
+.mobiview-search {
+    line-height: 0px;
+}
 
 .homeslick .slick-list li {height:auto; padding:0; text-align:center;}
 .caption-right {width:100%; margin:0 0 15px;}
