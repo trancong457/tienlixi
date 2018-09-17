@@ -43,6 +43,23 @@ jQuery(document).ready(function($){
         return false;
     });
 
+    //Moble Menu Script
+    jQuery(".header-search .search-icon").click(function(){
+        jQuery(".header-search").toggleClass('opened');
+    });
+
+    jQuery("#search-box").keyup(function(event){
+        var keycode = (event.keyCode ? event.keyCode : event.which);
+        if(keycode == '13'){
+            jQuery(this).parents('form:first').submit();
+        }
+    });
+
+
+    jQuery("#search-box").blur(function(){
+        jQuery(".header-search").removeClass('opened');
+    });
+
 
     jQuery('.slider-for').slick({
         slidesToShow: 1,

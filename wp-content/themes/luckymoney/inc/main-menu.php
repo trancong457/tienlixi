@@ -26,7 +26,6 @@
 	wp_nav_menu($args);
 ?>
 
-        <?php include THEME_INC_DIR . '/cart_top.php';?>
 
 		</nav>
 

@@ -36,30 +36,51 @@
 
 <!--Header Start-->
 <header class="header">
-    <!--
-    <div class="header-top clearfix">
-        <div class="header-links pull-left">
-            <div class="menu-top_menu-container">
-                <ul id="menu-top_menu-1" class="nav-links">
-                    <li class=""><a href="#">Trang chủ</a></li>
-                    <li class=""><a href="#">Tin Tức</a></li>
-                    <li class=""><a href="#">Liên Hệ</a></li>
-                </ul>
-            </div>
-        </div>
-        <div class="header-tags pull-right">
-            <ul class="nav-links tag-list">
-                <li><em>Tiền lì xì tết 2019</em></li>
-                <li><em>Giỏ hàng</em></li>
-            </ul>
-        </div>
-    </div>
-    -->
-    <div class="nav-main center">
-        <div class="container">
+
+    <div class="container">
+        <div class="header-inner clearfix">
             <div class="logo">
                 <?php include THEME_INC_DIR . '/logo.php';?>
             </div>
+
+            <div class="header-right">
+
+                <div class="header-search">
+                    <span class="search-icon icon-round"><i class="ei ei-search2"></i></span>
+                    <div class="search-block frmSearch">
+                        <form role="search" method="get" class="search-form" action="<?php echo site_url(); ?>">
+                            <input id="search-box" class="searchinput" placeholder="Search …" value="" name="s"
+                                   type="search">
+                            <input name="post_type" value="product" type="hidden">
+                        </form>
+
+                    </div>
+
+                    <div class="mobiview-search frmSearch">
+                        <i class="ei ei-search2"></i>
+                        <form role="search" method="get" class="search-form" action="<?php echo site_url(); ?>">
+                            <input id="search-box" class="searchinput-mobiview" placeholder="Search …" value="" name="s" type="search">
+                            <input name="post_type" value="product" type="hidden">
+                        </form>
+                    </div>
+                </div>
+
+
+                <?php include THEME_INC_DIR . '/cart_top.php';?>
+
+                <!--Menu Icon-->
+                <div class="icon-round menu-mobi-view">
+                    <div class="menuicon mobilemenuicon">
+                        <i class="ei ei-menu"></i><i class="ei ei-close"></i>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="nav-main center">
+        <div class="container">
             <nav class="menu-product_cat_menu-container">
                 <?php require_once THEME_INC_DIR . '/main-menu.php';?>
             </nav>
@@ -67,26 +88,22 @@
         </div>
     </div>
 
-
-    <div class="mobiview-search frmSearch clearfix">
-
-        <?php include THEME_INC_DIR . '/logo.php';?>
-
-        <!--Menu Icon-->
-        <div class="icon-round menu-mobi-view">
-            <div class="menuicon mobilemenuicon">
-                <i class="ei ei-menu"></i><i class="ei ei-close"></i>
-            </div>
-        </div>
-
-        <div class="icon-round menu-mobi-view">
-
-            <div class="menuicon  menu_icon_mobile_cart">
-                <?php include THEME_INC_DIR . '/cart_top.php';?>
-            </div>
-
-        </div>
-
+    <div class="search-block frmSearch">
+        <form role="search" method="get" class="search-form" action="<?php echo site_url(); ?>">
+            <input id="search-box" class="searchinput" placeholder="Search …" value="" name="s" type="search">
+            <input name="post_type" value="product" type="hidden">
+        </form>
+        <div id="suggesstion-box"></div>
     </div>
+
+    <div class="mobiview-search frmSearch">
+        <i class="ei ei-search2"></i>
+        <form role="search" method="get" class="search-form" action="<?php echo site_url(); ?>">
+            <input id="search-box" class="searchinput-mobiview" placeholder="Search …" value="" name="s" type="search">
+            <input name="post_type" value="product" type="hidden">
+        </form>
+        <div id="suggesstion-box"></div>
+    </div>
+
 </header>
 <!--Header End-->

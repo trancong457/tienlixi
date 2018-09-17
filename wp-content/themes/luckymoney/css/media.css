@@ -37,7 +37,6 @@ input[type="radio"], input[type="checkbox"] {-webkit-appearance: normal;}
 .menuicon.opened .ei-close {display:block; color:#cd242b;}
 .menuicon.opened .ei-menu {display:none;}
 /*Mobile Menu Css End*/
-
 /* 1366px View */
 @media screen and (max-width:1679px){
 
@@ -73,10 +72,10 @@ h2 {font-size:26px;}
 
 }
 
-@media screen and (min-width:800px){.dxcdsx {display:block !important;}}
+@media screen and (min-width:1024px){.dxcdsx {display:block !important;}}
 /* iPad 768px view*/
-@media screen and (max-width:800px) {
-.container {width:740px;}
+@media screen and (max-width:1023px) {
+    .container {width:740px;}
 .header .container {width:100%; padding:0 10px;}
 h1, h2 {font-size:30px; line-height:normal; margin:0 0 15px;}
 h3 {font-size:20px;}
@@ -163,7 +162,7 @@ body.woocommerce-account .woocommerce-MyAccount-navigation {margin: 0 0 20px;pad
 }
 
 /* iPhone-6 plus 736 (Landscape) view */
-@media screen and (max-width:800px) {
+@media screen and (max-width:767px) {
 body {-webkit-text-size-adjust:none;}
 .container {width:100%; padding:0 15px;}
 h1, h2 {font-size:24px; line-height:normal; margin:0 0 10px;}
@@ -181,13 +180,6 @@ p {margin:0 0 15px;}
 .header-search {display:none;}
 .mobiview-search {display:block;}
 .cart-icon {margin:0;}
-
-.menu-mobi-view {
-    margin-top: 10px;
-}
-.mobiview-search {
-    line-height: 0px;
-}
 
 .homeslick .slick-list li {height:auto; padding:0; text-align:center;}
 .caption-right {width:100%; margin:0 0 15px;}
