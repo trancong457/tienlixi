@@ -106,12 +106,7 @@ function theme_register_style(){
     wp_register_style('elegant_icons', $cssUrl . '/elegant-icons.min.css',array(),'1.0');
     wp_enqueue_style('elegant_icons');
 
-    //skick slider
-    wp_register_style('slick', $cssUrl . 'https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css',array(),'1.0');
-    wp_enqueue_style('slick');
 
-    wp_register_style('slick_theme', $cssUrl . 'https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css',array(),'1.0');
-    wp_enqueue_style('slick_theme');
 
 }
 
@@ -135,6 +130,8 @@ function woocommerce_support() {
 /*============================================================================
  * 1. OVERRIDE Woocommerce
 ============================================================================*/
+
+remove_action( 'woocommerce_before_shop_loop', 'woocommerce_catalog_ordering', 30 );
 
 function action_woocommerce_before_shop_loop_item(  ) {
     echo '<div class="info-text">';
@@ -198,7 +195,7 @@ if ( ! function_exists( 'woocommerce_get_product_thumbnail' ) ) {
 
         }
 
-        $output .= '<span class="shopnow-btn">Buy Now</span></a>';
+        $output .= '<span class="shopnow-btn">Mua Ngay</span></a>';
 
         return $output;
     }
@@ -318,3 +315,113 @@ if(is_category()){
 */
 
 
+/* remove fields in checkout */
+
+add_filter( 'woocommerce_checkout_fields' , 'custom_remove_woo_checkout_fields' );
+
+function custom_remove_woo_checkout_fields( $fields ) {
+
+    // remove billing fields
+    unset($fields['billing']['billing_first_name']);
+    unset($fields['billing']['billing_last_name']);
+    unset($fields['billing']['billing_company']);
+    unset($fields['billing']['billing_address_1']);
+    unset($fields['billing']['billing_address_2']);
+    unset($fields['billing']['billing_city']);
+    unset($fields['billing']['billing_postcode']);
+    unset($fields['billing']['billing_country']);
+    unset($fields['billing']['billing_state']);
+    //unset($fields['billing']['billing_phone']);
+    unset($fields['billing']['billing_email']);
+
+    // remove shipping fields
+   // unset($fields['shipping']['shipping_first_name']);
+    //unset($fields['shipping']['shipping_last_name']);
+    unset($fields['shipping']['shipping_company']);
+    unset($fields['shipping']['shipping_address_1']);
+    unset($fields['shipping']['shipping_address_2']);
+    unset($fields['shipping']['shipping_city']);
+    unset($fields['shipping']['shipping_postcode']);
+    unset($fields['shipping']['shipping_country']);
+    unset($fields['shipping']['shipping_state']);
+
+    // remove order comment fields
+    //unset($fields['order']['order_comments']);
+
+    return $fields;
+}
+
+// Add Full Name
+add_filter( 'woocommerce_checkout_fields' , 'custom_override_checkout_fields' );
+
+// Our hooked in function - $fields is passed via the filter!
+function custom_override_checkout_fields( $fields ) {
+    $fields['billing']['full_name'] = array(
+        'label' => __('Tên', 'woocommerce'),
+        'placeholder' => _x('Tên', 'placeholder', 'woocommerce'),
+        'required' => true,
+        'class' => array('form-row-wide'),
+        'clear' => true
+    );
+
+    $fields['billing']['address'] = array(
+        'label' => __('Địa Chỉ', 'woocommerce'),
+        'placeholder' => _x('Địa Chỉ', 'placeholder', 'woocommerce'),
+        'required' => true,
+        'class' => array('form-row-wide'),
+        'clear' => true
+    );
+    return $fields;
+}
+
+add_action('woocommerce_checkout_update_order_meta', 'my_custom_checkout_field_update_order_meta');
+
+function my_custom_checkout_field_update_order_meta( $order_id ) {
+    if ($_POST['full_name']) update_post_meta( $order_id, 'billing_full_name', esc_attr($_POST['full_name']));
+    if ($_POST['address']) update_post_meta( $order_id, 'billing_address', esc_attr($_POST['address']));
+}
+
+add_action( 'woocommerce_admin_order_data_after_billing_address', 'my_custom_checkout_fullname_display_admin_order_meta', 1, 1 );
+
+function my_custom_checkout_fullname_display_admin_order_meta($order){
+    echo '<p><strong>'.__('Tên').':</strong> ' . get_post_meta( $order->id, 'billing_full_name', true ) . '</p>';
+
+}
+
+
+add_action( 'woocommerce_admin_order_data_after_billing_address', 'my_custom_checkout_address_display_admin_order_meta', 1, 1 );
+
+function my_custom_checkout_address_display_admin_order_meta($order){
+    echo '<p><strong>'.__('Địa Chỉ').':</strong> ' . get_post_meta( $order->id, 'billing_address', true ) . '</p>';
+
+}
+
+add_filter("woocommerce_checkout_fields", "order_fields");
+
+function order_fields($fields) {
+
+    $order = array(
+        "full_name",
+        "address",
+        "billing_phone"
+
+    );
+    foreach($order as $field)
+    {
+        $ordered_fields[$field] = $fields["billing"][$field];
+    }
+
+    $fields["billing"] = $ordered_fields;
+    return $fields;
+
+}
+
+// remove description category
+
+add_action('woocommerce_archive_description', 'custom_archive_description', 2 );
+function custom_archive_description(){
+    if( is_product_category() ) :
+        remove_action('woocommerce_archive_description', 'woocommerce_taxonomy_archive_description', 10 );
+        add_action( 'woocommerce_after_main_content', 'woocommerce_taxonomy_archive_description', 5 );
+    endif;
+}

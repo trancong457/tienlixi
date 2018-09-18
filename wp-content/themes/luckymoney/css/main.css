@@ -184,7 +184,14 @@ textarea {height:auto; padding:10px 12px;}
 .cart-icon .cart-item {display:block; min-width:24px; height:24px; text-align:center; background:#cd242b; font-size:10px; line-height:24px; color:#fff; font-weight:700; -webkit-border-radius:50%;-moz-border-radius:50%;border-radius:50%; position:absolute; right:-5px; top:-5px;}
 
 .mobiview-search {display:none; background:#cd242b; padding:0px 15px 0px 0px; position:relative; z-index: 10;}
-.mobiview-search i {position:absolute; right:15px; top:18px; font-size:15px; color:#333; line-height:normal;}
+.mobiview-search i {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    font-size: 15px;
+    color: #fff;
+    line-height: normal;
+}
 .searchinput-mobiview {display:block; width:100%; background:#cd242b; border:none; padding:4px 30px 4px 4px; color:#fff;}
 .mobiview-search ::-webkit-input-placeholder{color:#fff; opacity:1;}
 .mobiview-search :-moz-placeholder{color:#fff; opacity:1;} /* Firefox 18- */
@@ -754,6 +761,25 @@ section.text-2 .textwidget{
     color: #999;
 }
 
+
+.woocommerce-message {
+    background: teal;
+    color: #fff;
+}
+
+.woocommerce .woocommerce-error .button, .woocommerce .woocommerce-info .button, .woocommerce .woocommerce-message .button, .woocommerce-page .woocommerce-error .button, .woocommerce-page .woocommerce-info .button, .woocommerce-page .woocommerce-message .button {
+    float: right;
+}
+
+.woocommerce .col2-set .col-1, .woocommerce-page .col2-set .col-1 {
+    float: left;
+    width: 48%;
+}
+
+.woocommerce .col2-set .col-2, .woocommerce-page .col2-set .col-2 {
+    float: right;
+    width: 48%;
+}
 
 @media only screen and (max-width: 768px) {
     .woocommerce table.shop_table_responsive thead, .woocommerce-page table.shop_table_responsive thead {

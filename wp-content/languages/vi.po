@@ -12537,3 +12537,4 @@ msgstr "Mã kích hoạt:"
 #: wp-activate.php:80
 msgid "Activation Key Required"
 msgstr "Bạn phải có mã kích hoạt"
+

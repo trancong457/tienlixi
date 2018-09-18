@@ -48,17 +48,30 @@ jQuery(document).ready(function($){
         jQuery(".header-search").toggleClass('opened');
     });
 
-    jQuery("#search-box").keyup(function(event){
-        var keycode = (event.keyCode ? event.keyCode : event.which);
-        if(keycode == '13'){
-            jQuery(this).parents('form:first').submit();
-        }
+    jQuery("#search-box").keyup(function(){
+
+        var gtduri = jQuery("#gtduri").val();
+        jQuery.ajax({
+            type: "POST",
+            url: gtduri+"/autocomplete_search_product.php",
+            data:'keyword='+jQuery(this).val(),
+            beforeSend: function(){
+                jQuery("#search-box").css("background","#f2f4f6 url("+gtduri+"/images/LoaderIcon.gif) no-repeat 165px");
+            },
+            success: function(data){
+                jQuery("#suggesstion-box").show();
+                jQuery("#suggesstion-box").html(data);
+                jQuery("#search-box").css("background","#FFF");
+            }
+        });
+
     });
 
-
+    /*
     jQuery("#search-box").blur(function(){
-        jQuery(".header-search").removeClass('opened');
+        //jQuery(".header-search").removeClass('opened');
     });
+    */
 
 
     jQuery('.slider-for').slick({
@@ -133,3 +146,7 @@ jQuery(document).ready(function($){
     });
 
 });
+
+function selectProduct(permalink) {
+    window.location.href = permalink;
+}

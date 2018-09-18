@@ -20,7 +20,7 @@
         </div>
         <div class="copright">© 2018 <a href="<?php echo site_url(); ?>">tienlixitet.vn</a></div>
         <div class="powerd-text">
-            <ul><li>Website by <a href="">JPWEB</a></li></ul>
+            <ul><li>Website by <a style="color: red;" href="https://jpweb.vn/">JPWEB</a></li></ul>
         </div>
     </div>
 </footer>

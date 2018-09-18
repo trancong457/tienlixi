@@ -1,7 +1,7 @@
 <?php
 $class_category = '';
 if( is_product_category() || is_shop()) {
-    $class_category = 'product-list padding-40 clearfix';
+    $class_category = 'product-list clearfix';
 }
 ?>
 

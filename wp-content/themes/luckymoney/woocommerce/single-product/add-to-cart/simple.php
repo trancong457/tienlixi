@@ -51,7 +51,7 @@ if ( $product->is_in_stock() ) : ?>
 
             <div class="col-2">
                 <?php do_action( 'woocommerce_after_add_to_cart_button' ); ?>
-                <a id="buy_now" class="button" href="<?php echo home_url('/cart/?add-to-cart='.esc_attr( $product->get_id() ));?>">Buy Now</a>
+                <a id="buy_now" class="button" href="<?php echo home_url('/cart/?add-to-cart='.esc_attr( $product->get_id() ));?>">Mua Ngay</a>
             </div>
         </div>
 

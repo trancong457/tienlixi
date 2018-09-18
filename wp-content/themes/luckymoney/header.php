@@ -52,8 +52,9 @@
                             <input id="search-box" class="searchinput" placeholder="Search …" value="" name="s"
                                    type="search">
                             <input name="post_type" value="product" type="hidden">
+                            <input id="gtduri" value="<?php echo THEME_URL ?>" type="hidden">
                         </form>
-
+                        <div id="suggesstion-box"></div>
                     </div>
 
                     <div class="mobiview-search frmSearch">

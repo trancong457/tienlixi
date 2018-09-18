@@ -60,7 +60,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 				<?php endif; ?>
 
 				<li class="woocommerce-order-overview__total total">
-					<?php _e( 'Total:', 'woocommerce' ); ?>
+					<?php  _e( 'Total:', 'woocommerce' ); ?>
 					<strong><?php echo $order->get_formatted_order_total(); ?></strong>
 				</li>
 

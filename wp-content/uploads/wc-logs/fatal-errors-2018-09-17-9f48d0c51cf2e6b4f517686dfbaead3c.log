@@ -1,0 +1,15 @@
+2018-09-17T17:22:36+00:00 CRITICAL Uncaught Error: Call to a member function get_title() on null in D:\works\htdocs\tienlixi\wp-content\themes\luckymoney\autocomplete_search_product.php:20
+Stack trace:
+#0 {main}
+  thrown
+
+2018-09-17T17:27:54+00:00 CRITICAL Uncaught Error: Call to a member function get_title() on null in D:\works\htdocs\tienlixi\wp-content\themes\luckymoney\autocomplete_search_product.php:20
+Stack trace:
+#0 {main}
+  thrown
+
+2018-09-17T17:27:55+00:00 CRITICAL Uncaught Error: Call to a member function get_title() on null in D:\works\htdocs\tienlixi\wp-content\themes\luckymoney\autocomplete_search_product.php:20
+Stack trace:
+#0 {main}
+  thrown
+

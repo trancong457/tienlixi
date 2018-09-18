@@ -22,7 +22,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 global $post;
 
-$heading = esc_html( apply_filters( 'woocommerce_product_description_heading', __( 'Product Description', 'woocommerce' ) ) );
+$heading = esc_html( apply_filters( 'woocommerce_product_description_heading', __( 'Chi Tiết Sản Phẩm', 'woocommerce' ) ) );
 
 ?>
 <div class="product-discription clearfix">

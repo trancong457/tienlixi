@@ -30,7 +30,7 @@ if ( post_password_required() ) {
 }
 ?>
 <div class="single-product">
-    <div class="product-detail  padding-80">
+    <div class="product-detail">
         <div id="product-<?php the_ID(); ?>" <?php //wc_product_class(); ?>>
 
             <?php
