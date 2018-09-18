@@ -2,22 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="10fd8ebc-8910-4d37-abc7-40a8a4251c23" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/luckymoney/autocomplete_search_product.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/languages/plugins/woocommerce-vi.mo" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/languages/plugins/woocommerce-vi.mo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/languages/plugins/woocommerce-vi.po" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/languages/plugins/woocommerce-vi.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/languages/vi.po" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/languages/vi.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/luckymoney/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/luckymoney/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/luckymoney/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/luckymoney/footer.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/luckymoney/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/luckymoney/functions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/luckymoney/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/luckymoney/header.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/luckymoney/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/luckymoney/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/luckymoney/woocommerce.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/luckymoney/woocommerce.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/luckymoney/woocommerce/checkout/form-checkout.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/luckymoney/woocommerce/checkout/form-checkout.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/luckymoney/woocommerce/checkout/thankyou.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/luckymoney/woocommerce/checkout/thankyou.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/luckymoney/woocommerce/content-single-product.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/luckymoney/woocommerce/content-single-product.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/luckymoney/woocommerce/single-product/add-to-cart/simple.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/luckymoney/woocommerce/single-product/add-to-cart/simple.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/luckymoney/woocommerce/single-product/tabs/description.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/luckymoney/woocommerce/single-product/tabs/description.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -28,11 +15,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="order-details.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="order-details.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/luckymoney/woocommerce/order/order-details.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="497">
-              <caret line="84" column="30" selection-start-line="84" selection-start-column="30" selection-end-line="84" selection-end-column="30" />
+            <state relative-caret-position="429">
+              <caret line="80" column="14" selection-start-line="80" selection-start-column="14" selection-end-line="80" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Downloads/tienlixi-homepage/New Year Money – 2018 Year of the Dog Official Genuine Product_files/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/luckymoney/js/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="236">
+              <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="functions.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/luckymoney/functions.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="428">
+              <caret line="88" column="4" selection-start-line="88" selection-start-column="4" selection-end-line="88" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -50,8 +64,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>menu-categories</find>
-      <find>mobiview-search</find>
       <find>.mobiview-search</find>
       <find>.logo</find>
       <find>container {width:740px;</find>
@@ -80,6 +92,8 @@
       <find>woocommerce-thankyou-order-details</find>
       <find>Tổng cộng</find>
       <find>tổng cộng</find>
+      <find>he</find>
+      <find>height</find>
     </findStrings>
     <replaceStrings>
       <replace>&quot;&lt;?php echo THEME_CSS_URL ?&gt;/</replace>
@@ -141,14 +155,14 @@
         <option value="$PROJECT_DIR$/wp-content/themes/luckymoney/woocommerce.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/luckymoney/woocommerce/content-single-product.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/luckymoney/woocommerce/checkout/form-checkout.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/luckymoney/functions.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/luckymoney/autocomplete_search_product.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/luckymoney/js/main.js" />
         <option value="$PROJECT_DIR$/wp-content/themes/luckymoney/css/main.css" />
         <option value="$PROJECT_DIR$/wp-content/languages/vi.po" />
         <option value="$PROJECT_DIR$/wp-content/themes/luckymoney/woocommerce/order/order-details.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/luckymoney/woocommerce/checkout/thankyou.php" />
         <option value="$PROJECT_DIR$/wp-content/languages/plugins/woocommerce-vi.po" />
+        <option value="$PROJECT_DIR$/wp-content/themes/luckymoney/js/main.js" />
+        <option value="$PROJECT_DIR$/wp-content/themes/luckymoney/functions.php" />
       </list>
     </option>
   </component>
@@ -161,7 +175,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-7" />
     <option name="width" value="697" />
     <option name="height" value="735" />
@@ -188,19 +202,6 @@
               <item name="tienlixi" type="b2602c69:ProjectViewProjectNode" />
               <item name="tienlixi" type="462c0819:PsiDirectoryNode" />
               <item name="wp-content" type="462c0819:PsiDirectoryNode" />
-              <item name="languages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tienlixi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tienlixi" type="462c0819:PsiDirectoryNode" />
-              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
-              <item name="languages" type="462c0819:PsiDirectoryNode" />
-              <item name="plugins" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tienlixi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tienlixi" type="462c0819:PsiDirectoryNode" />
-              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
               <item name="themes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -209,6 +210,14 @@
               <item name="wp-content" type="462c0819:PsiDirectoryNode" />
               <item name="themes" type="462c0819:PsiDirectoryNode" />
               <item name="luckymoney" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tienlixi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tienlixi" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="luckymoney" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -262,12 +271,12 @@
       <workItem from="1537168452048" duration="11531000" />
       <workItem from="1537183168819" duration="26000" />
       <workItem from="1537195042590" duration="9391000" />
-      <workItem from="1537233977897" duration="21282000" />
+      <workItem from="1537233977897" duration="23477000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="164825000" />
+    <option name="totallyTimeSpent" value="167020000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -302,13 +311,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/luckymoney/single-post.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="53" selection-start-line="18" selection-start-column="53" selection-end-line="18" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/luckymoney/woocommerce/loop/loop-start.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -510,31 +512,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/luckymoney/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6749">
-          <caret line="397" lean-forward="true" selection-start-line="397" selection-end-line="397" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/luckymoney/woocommerce/content-single-product.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="194">
           <caret line="32" column="30" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/luckymoney/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="73" column="6" selection-start-line="73" selection-start-column="6" selection-end-line="73" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/tienlixi-homepage/New Year Money – 2018 Year of the Dog Official Genuine Product_files/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="137" column="13" lean-forward="true" selection-start-line="137" selection-start-column="13" selection-end-line="137" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -589,8 +570,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/luckymoney/woocommerce/order/order-details.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="497">
-          <caret line="84" column="30" selection-start-line="84" selection-start-column="30" selection-end-line="84" selection-end-column="30" />
+        <state relative-caret-position="429">
+          <caret line="80" column="14" selection-start-line="80" selection-start-column="14" selection-end-line="80" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/tienlixi-homepage/New Year Money – 2018 Year of the Dog Official Genuine Product_files/widgets.js.tải xuống">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-12055" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/tienlixi-homepage/New Year Money – 2018 Year of the Dog Official Genuine Product_files/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/luckymoney/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/luckymoney/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="428">
+          <caret line="88" column="4" selection-start-line="88" selection-start-column="4" selection-end-line="88" selection-end-column="4" />
         </state>
       </provider>
     </entry>

@@ -13,6 +13,10 @@ jQuery(document).ready(function($){
     $(document).ready(_init.init);
     */
 
+
+
+    jQuery('.section-inner .info-box,.woocommerce-Address address').matchHeight();
+
     //Moble Menu Script
     jQuery(".mobilemenuicon").click(function(){
         jQuery(this).toggleClass('opened');
@@ -145,8 +149,15 @@ jQuery(document).ready(function($){
         dots: true
     });
 
+    jQuery(window).resize(function() {
+        jQuery('.section-inner .info-box, .woocommerce-Address address').matchHeight();
+    });
+
 });
 
 function selectProduct(permalink) {
     window.location.href = permalink;
 }
+
+
+

@@ -86,6 +86,7 @@ function theme_register_js(){
 
     wp_enqueue_script('script',$jsUrl . '/main.js',array('jquery'),'1.0',true);
     wp_enqueue_script('script_1','https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.js',array('jquery'),'1.0',true);
+    wp_enqueue_script('script_2','https://cdnjs.cloudflare.com/ajax/libs/jquery.matchHeight/0.7.2/jquery.matchHeight.js',array('jquery'),'1.0',true);
 }
 
 /*============================================================================
