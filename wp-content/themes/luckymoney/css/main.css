@@ -781,6 +781,11 @@ section.text-2 .textwidget{
     width: 48%;
 }
 
+.product-list .term-description {
+    margin-top: 15px;
+    margin-bottom: 40px;
+}
+
 @media only screen and (max-width: 768px) {
     .woocommerce table.shop_table_responsive thead, .woocommerce-page table.shop_table_responsive thead {
         display: none
@@ -935,6 +940,9 @@ section.text-2 .textwidget{
         padding-right: 0px;
     }
 
-
+    .link_logo img {
+        height: 50px;
+        width: auto !important;
+    }
 
 }
