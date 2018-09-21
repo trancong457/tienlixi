@@ -107,8 +107,6 @@ function theme_register_style(){
     wp_register_style('elegant_icons', $cssUrl . '/elegant-icons.min.css',array(),'1.0');
     wp_enqueue_style('elegant_icons');
 
-
-
 }
 
 
@@ -205,9 +203,13 @@ if ( ! function_exists( 'woocommerce_get_product_thumbnail' ) ) {
 // title category
 
 // define the woocommerce_show_page_title callback
+/*
 add_filter( 'woocommerce_show_page_title', function(){
-    return false;
+
+       // return false;
+
 });
+*/
 
 
 // reorder single product

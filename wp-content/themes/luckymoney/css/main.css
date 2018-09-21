@@ -203,8 +203,8 @@ textarea {height:auto; padding:10px 12px;}
 .nav-main {background:#cd242b; position:relative; z-index:4;}
 .nav-main .container {width:1340px;}
 .nav-main ul {margin:0; padding:0;}
-.nav-main nav ul > li {float:left; margin:0; padding:0; list-style:none; position:relative; height:80px; display:table;}
-.nav-main nav ul > li a {display:table-cell; vertical-align:middle; color:#fff; font-size:14px; font-weight:600; font-family:'Open Sans', Arial; line-height:20px; text-transform:none; letter-spacing:0.025em; padding:20px 20px; position:relative; z-index:2;}
+.nav-main nav ul > li {float:left; margin:0; padding:0; list-style:none; position:relative; height:60px; display:table;}
+.nav-main nav ul > li a {display:table-cell; vertical-align:middle; color:#fff; font-size:13px; font-weight:600; font-family:'Open Sans', Arial; line-height:20px; text-transform:none; letter-spacing:0.025em; padding:15px 15px; position:relative; z-index:2;}
 .nav-main nav ul > li.current-menu-item > a, 
 .nav-main nav ul > li.current-menu-ancestor > a,
 .nav-main nav ul > li:hover > a {background:#434a54; color:#fff;}
@@ -784,6 +784,10 @@ section.text-2 .textwidget{
 .product-list .term-description {
     margin-top: 15px;
     margin-bottom: 40px;
+}
+
+.product-list h1.page-title {
+    text-align: center;
 }
 
 @media only screen and (max-width: 768px) {
