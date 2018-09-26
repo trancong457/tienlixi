@@ -847,7 +847,7 @@ section.text-2 .textwidget{
 
 .media-body h3, .media-body h4 {
     font-family: "Source Sans Pro", sans-serif;
-    color: #cd242b;
+    color: #424242;
     text-transform: uppercase;
     font-size: 14px;
     font-weight: 600;
@@ -856,6 +856,16 @@ section.text-2 .textwidget{
 .support .box-services .media-body small {
     font-size: 14px;
     line-height: 20px;
+}
+
+.support .box-services:hover span {
+    border: 1px solid #cd242b;
+}
+.support .box-services:hover span i {
+    color: #cd242b;
+}
+.support .box-services:hover .media-body h3 {
+    color: #cd242b;
 }
 
 @media only screen and (max-width: 1000px) {
