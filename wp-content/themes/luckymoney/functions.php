@@ -73,6 +73,17 @@ function theme_widgets_init(){
         'after_title'   => '</h2>'
     ));
 
+    register_sidebar(array(
+        'name'          => __( 'Before menu widget area', 'lucky_money' ),
+        'id'            => 'before-menu-widget-area',
+        'description'   => __( 'Hien thi trước main menu', 'lucky_money' ),
+        'class'         => '',
+        'before_widget' => '<section class="%1$s"><div class=""><div id="%1$s" class="%2$s clearfix">',
+        'after_widget'  => '</div></div></section>',
+        'before_title'  => '<h2 class="widget-title intro-text center">',
+        'after_title'   => '</h2>'
+    ));
+
 
 }
 
@@ -106,6 +117,9 @@ function theme_register_style(){
 
     wp_register_style('elegant_icons', $cssUrl . '/elegant-icons.min.css',array(),'1.0');
     wp_enqueue_style('elegant_icons');
+
+    wp_register_style('font_awesome', 'https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css',array(),'1.0');
+    wp_enqueue_style('font_awesome');
 
 }
 

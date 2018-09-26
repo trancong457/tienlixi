@@ -43,6 +43,10 @@
                 <?php include THEME_INC_DIR . '/logo.php';?>
             </div>
 
+            <?php if(is_active_sidebar('before-menu-widget-area')):?>
+                <?php dynamic_sidebar('before-menu-widget-area')?>
+            <?php endif;?>
+
             <div class="header-right">
 
                 <div class="header-search">
@@ -79,6 +83,8 @@
 
         </div>
     </div>
+
+
 
     <div class="nav-main center">
         <div class="container">
